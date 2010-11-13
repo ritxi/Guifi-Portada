@@ -169,13 +169,6 @@ a.padrins,a.padrins:visited,a.padrins:active {
     vertical-align:top;
     margin-top:0;
     margin-bottom:0;
-    line-height:125%;
-}
-
-.titolpeu {
-    color:#FFF;
-    font-size:12px;
-    font-weight:700;
 }
 
 .quatre.columnes .columna {
@@ -187,16 +180,29 @@ a.padrins,a.padrins:visited,a.padrins:active {
 
 #peu ul li {
     list-style-type:none;
-    border-bottom:1px dotted #000;
+}
+
+.titolpeu,#peu a {
+    display:block;
+    width:100%;
+    line-height:125%;
+    padding-top:4px;
+    padding-bottom:2px;
+    font-size:12px;
+    border-bottom:1px dotted #333;
+}
+
+.titolpeu {
+    color:#FFF;
+    font-weight:700;
 }
 
 #peu a {
-    font-size:12px;
-    color:#2E2E2E;
-/*#B8B8B8;*/
+    color:#333;
     text-decoration:none;
 }
 
 #peu a:hover {
-    border-bottom:1px solid #666;
+    color:#000;
+    border-bottom:1px solid #333;
 }
