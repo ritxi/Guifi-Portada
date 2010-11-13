@@ -1,0 +1,50 @@
+/* GNOME strip */
+
+#gnome-sites {
+	list-style: none;
+	background: #2E3436 url(../img/tiles/sites-bg.png) 0 100% repeat-x;
+	text-align: right;
+	padding: 0 1ex;
+	font-size: 70%;
+}
+
+#gnome-sites ul {
+	margin: 0;
+	padding: 0;
+}
+
+#gnome-sites li {
+	display: inline;
+	background: url(../img/tiles/sites-sp.png) 0 0 no-repeat;
+	padding-top: 10px;
+	padding-bottom: 8px;
+	margin-left: 0px;
+	margin-top: 0px;
+}
+
+#gnome-sites li a {
+	font-weight: bold;
+	color: #FFFFFF;
+	margin: 0 2ex;
+	text-decoration: none;
+	line-height: 30px;
+}
+
+#gnome-sites li a:hover {
+	text-decoration: underline;
+}
+
+#gnome-sites .home {
+	float: left;
+	background: url(../img/tiles/sites-sp.png) 100% 0 no-repeat;
+	padding-top: 0;
+	padding-bottom: 0;
+}
+
+#gnome-sites .home a {
+	float: left;
+	background: url(../img/guifi_favicon.jpg) 7px 50% no-repeat;
+	margin-left: 0;
+	padding-left: 27px;
+}
+
