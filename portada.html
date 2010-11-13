@@ -6,6 +6,30 @@
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
         <link rel="stylesheet" type="text/css" href="css/barra_guifi.css" />
         <link rel="stylesheet" type="text/css" href="css/guifi.css" />
+        <script type="text/javascript" src="./jquery/jquery.js"></script>
+		<script type="text/javascript" src="./jquery/jquery.scrollTo-min.js"></script>
+		<script type="text/javascript" src="./jquery/jquery.scrollShow.js"></script>	
+		<script type="text/javascript">
+	jQuery(function( $ ){
+		//borrowed from jQuery easing plugin
+		//http://gsgd.co.uk/sandbox/jquery.easing.php
+		$.easing.backout = function(x, t, b, c, d){
+			var s=1.70158;
+			return c*((t=t/d-1)*t*((s+1)*t + s) + 1) + b;
+		};
+		
+		$('#screen').scrollShow({
+			view:'#view',
+			content:'#images',
+			easing:'backout',
+			wrappers:'link,crop',
+			navigators:'a[id]',
+			navigationMode:'sr',
+			circular:true,
+			start:0
+		});
+	 });
+	</script>
     </head>
     <body>
         <div id="gnome-sites">
@@ -20,29 +44,67 @@
         </div>
         <div id="pagina">
             <div id="principal" style="overflow: hidden">
-                <img src="img/banner.png" />
-                <div id="cos" style="z-index: 5">
-                    <img src="img/botons.png" style="margin: -62px -47px 0 -48px"/>
-                    <img src="img/zona-1.png" style="margin: -105px -195px 0 -195px"/>
-                    <img src="img/zona-2.png" style="margin: -80px -194px 0 -193px; z-index: 20"/>
+                <img src="img/banner.png"/>
+            <div id="cos">
+            	<div id="caixes">
+                  <div id="caixa1">
+                  	<p class="titolcaixes">Què es Guifi.net?</p>
+                    <p class="textcaixes">Una xarxa que<br />uneix persones</p>
+                  </div>
+                  <div id="caixa2">
+                  	<p class="titolcaixes">Experiències</p>
+                    <p class="textcaixes">Particulars, empreses,<br />administracions,<br />universitats...</p>
+                  </div>
+                  <div id="caixa3">
+                  	<p class="titolcaixes">Participa-hi!</p>
+                    <p class="textcaixes">Descobreix com pots<br />formar part de Guifi</p>
+                  </div>
+              	</div>
+                <div>
+                	<img src="img/zona-1.png" style="margin: 30px 0px 0px -10px;"/>
                 </div>
-                <div id="peu" class="quatre columnes" style="margin-top: -70px; z-index: 10">
-                    <ul class="columna">
+                <div id="patrocinadors">
+                	<p class="titolpatrocinadors">Hi donen suport</p>
+                    <ul id="screen">
+						<li><a id="left" href="#"><img src="./img/esquerra.gif" width="13" height="31" alt="anterior" border="0"/></a></li>
+						<li id="view">
+							<ul id="images">
+								<li><img src="img/patrocinadors/generalitat.jpg" width="126" height="34" alt="Generalitat de Catalunya" /></li>
+								<li><img src="img/patrocinadors/omnium.jpg" width="132" height="34" alt="Omnium Cultural" /></li>
+								<li><img src="img/patrocinadors/consell1.png" width="97" height="27" /></li>
+								<li><img src="img/patrocinadors/consell1.png" width="97" height="27" /></li>
+								<li><img src="img/patrocinadors/citilab.jpg" width="62" height="47" alt="Citilab" /></li>
+								<li><img src="img/patrocinadors/generalitat.jpg" width="126" height="34" alt="Generalitat de Catalunya" /></li>
+								<li><img src="img/patrocinadors/omnium.jpg" width="132" height="34" alt="Omnium Cultural" /></li>
+								<li><img src="img/patrocinadors/consell1.png" width="97" height="27" /></li>
+							</ul>
+						</li>
+						<li><a id="right" href="#"><img src="./img/dreta.gif" width="13" height="31" alt="següent" border="0"/></a></li>
+					</ul>
+                    <p><a href="#" class="padrins">Suports i padrins... <img src="img/fletxadreta.gif" width="17" height="16" border="0" align="absmiddle"/></a></p>
+                </div>
+              </div>
+              <div id="peu" class="quatre columnes" style="margin-top: -40px; z-index: 10">
+      				<ul class="columna">
+                        <li class="titolpeu">Informació</li>
                         <li><a href="http://planet.guifi.net" title="Notícies">Notícies</a></li>
                         <li><a href="#" title="Documentació">Documentació</a></li>
                         <li><a href="#" title="Guifi TV">Guifi TV</a></li>
                     </ul>
                     <ul class="columna">
+                        <li class="titolpeu">Eines de gestió</li>
                         <li><a href="#" title="Mapes">Mapes</a></li>
                         <li><a href="#" title="Eines">Eines</a></li>
                         <li><a href="#" title="Grups locals">Grups locals</a></li>
                     </ul>
                     <ul class="columna">
+                        <li class="titolpeu">Suport</li>
                         <li><a href="#" title="Fòrums">Fòrums</a></li>
                         <li><a href="#" title="Llistes de correu">Llistes de correu</a></li>
                         <li><a href="#" title="Xat">Xat</a></li>
                     </ul>
                     <ul class="columna">
+                        <li class="titolpeu">Reconeixements</li>
                         <li><a href="#" title="Premi Telecomunicacions">Premi Telecomunicacions</a></li>
                         <li><a href="#" title="Premi Vilaweb">Premi Vilaweb</a></li>
                         <li><a href="#" title="Premi Juventud">Premi Juventud</a></li>
