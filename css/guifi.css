@@ -29,17 +29,11 @@ body {
 
 #cos {
     background-color:#CFCFCF;
-    padding:0 22px;
+    padding:0 21px;
 }
 
-#caixes {
-/*position: absolute;
-    z-index:5; 
-    top: -27px;*/
-}
-
-#caixa1,#caixa2,#caixa3 {
-    width:275px;
+.boto {
+    width:276px;
     height:172px;
     margin:-27px 0 0;
     box-shadow:7px 7px 8px #818181;
@@ -51,26 +45,20 @@ body {
     position:relative;
 }
 
-#caixa1,#caixa3 {
+#boto1 {
     background:#FFF url(../img/fonsboto1.png) no-repeat left bottom;
 }
 
-#caixa2 {
-    margin:-27px 17px 0;
+#boto2 {
+    margin:-27px 20px 0;
     background:#FFF url(../img/fonsboto2.png) no-repeat left bottom;
 }
 
-#caixa3 {
+#boto3 {
     background:#FFF url(../img/fonsboto3.png) no-repeat left bottom;
 }
 
-#caixa1 {
-/*margin-top: -30px;
-    z-index: 5;
-    position:relative;*/
-}
-
-.titolcaixes {
+.titol-boto {
     margin:17px 0 23px 23px;
     font-size:28px;
     font-style:italic;
@@ -78,7 +66,7 @@ body {
     font-family:Arial, FreeSans;
 }
 
-.textcaixes {
+.text-boto {
     font-size:16px;
     font-style:italic;
     color:#323232;
