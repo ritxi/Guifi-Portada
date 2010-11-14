@@ -21,10 +21,13 @@ body {
 }
 
 #principal {
-    width:910px;
     padding:0 49px 0 0;
     background-image:url(../img/tiles/shadow-bg.png);
     background-position:top right;
+}
+
+#principal,#banner {
+    width:910px;
 }
 
 #cos {
@@ -42,6 +45,58 @@ body {
     -moz-box-shadow:5px 6px 20px #5F5F5F;
     filter:progid:DXImageTransform.Microsoft.dropShadow(color=#5F5F5F,offX=5,offY=6,positive=true);
     position: relative;
+}
+
+/* bàner */
+
+#banner {
+    position:relative;
+    height:89px;
+    z-index: 5;
+    background:transparent url(../img/tiles/banner-bg.png) repeat left top;
+}
+
+#banner a {
+    text-decoration:none;
+}
+
+#banner h1, #banner h2 {
+    margin:0;
+}
+
+
+#logo {
+    float:left;
+    width:225px;
+    height:65px;
+    padding-top:12px;
+    padding-left:57px;
+    margin:0;
+}
+
+#logo img {
+    border:none;
+}
+
+#slogan {
+    float:left;
+    padding-top:13px;
+    padding-left:71px;
+}
+
+#slogan h2 {
+    font-size:20px;
+    line-height:140%;
+    font-style:italic;
+    font-weight:normal;
+    text-decoration:none;
+    color:#323232;
+}
+
+/* final bàner */
+
+#banner-slider {
+    z-index:1;
 }
 
 /* els 3 botons */
