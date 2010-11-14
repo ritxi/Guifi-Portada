@@ -26,9 +26,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.70710678"
-     inkscape:cx="451.04053"
-     inkscape:cy="384.58064"
+     inkscape:zoom="0.5"
+     inkscape:cx="733.52368"
+     inkscape:cy="541.62371"
      inkscape:document-units="px"
      inkscape:current-layer="capa1"
      showgrid="false"
@@ -2232,15 +2232,6 @@
        y1="14.445171"
        x2="112.12776"
        y2="17.632534" />
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient4186"
-       id="linearGradient5714"
-       gradientUnits="userSpaceOnUse"
-       x1="209.34549"
-       y1="-314.95593"
-       x2="209.34549"
-       y2="-442.57748" />
     <inkscape:perspective
        id="perspective6747"
        inkscape:persp3d-origin="320 : 160 : 1"
@@ -2644,17 +2635,9 @@
     <linearGradient
        inkscape:collect="always"
        xlink:href="#linearGradient6050"
-       id="linearGradient6000"
+       id="linearGradient5076"
        gradientUnits="userSpaceOnUse"
-       x1="209.34549"
-       y1="-314.95593"
-       x2="209.34549"
-       y2="-448.38693" />
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient4186"
-       id="linearGradient6002"
-       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.0021679,0,0,0.82818272,-0.79932744,-56.784945)"
        x1="209.34549"
        y1="-314.95593"
        x2="209.34549"
@@ -2741,7 +2724,7 @@
     <rect
        ry="0"
        rx="0"
-       transform="matrix(1.0000911,0,0,0.82818272,-0.01873421,146.86181)"
+       transform="matrix(1.0000911,0,0,0.82818272,1.9202887,146.86181)"
        style="fill:#ffffff;fill-opacity:1;stroke:url(#linearGradient3592);stroke-width:0.99990451;stroke-miterlimit:4;stroke-opacity:0.23144106;stroke-dasharray:none;filter:url(#filter5042)"
        id="rect3588"
        width="862.24811"
@@ -2773,7 +2756,7 @@
          style="font-size:20px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:139.99999762%;writing-mode:lr-tb;text-anchor:start;fill:#323232;fill-opacity:1;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans Oblique">Internet per a Tothom</tspan></text>
     <path
        style="fill:none;stroke:none"
-       d="m 180.03126,-449.31195 0,154.53125 148.4375,0 0,-154.53125 -148.4375,0 z"
+       d="m 179.39946,-449.31195 0,154.53125 148.4375,0 0,-154.53125 -148.4375,0 z"
        id="rect5173"
        inkscape:export-filename="/media/PITICLI/coses/Guifi-webdev/Proposta 1/img/botons.png"
        inkscape:export-xdpi="90"
@@ -2786,13 +2769,12 @@
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90" />
     <rect
-       y="-521.90051"
-       x="71.644012"
-       height="206.94456"
-       width="275.40295"
+       y="-489.01392"
+       x="71"
+       height="171.38791"
+       width="276"
        id="rect3873"
-       style="fill:url(#linearGradient6000);fill-opacity:1;stroke:url(#linearGradient6002);stroke-width:0.99990451000000002;stroke-miterlimit:4;stroke-opacity:0.23144106000000000;stroke-dasharray:none;filter:url(#filter4085-7)"
-       transform="matrix(1.0000911,0,0,0.82818272,-0.01873421,-56.784945)"
+       style="fill:url(#linearGradient5076);fill-opacity:1;stroke:none;filter:url(#filter5651)"
        rx="0"
        ry="0"
        inkscape:export-filename="/media/PITICLI/coses/Guifi-webdev/Proposta 1/img/botons.png"
@@ -2801,7 +2783,7 @@
     <text
        xml:space="preserve"
        style="font-size:31.46065331px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#ff3300;fill-opacity:1;stroke:none;font-family:DejaVu Sans;-inkscape-font-specification:Andika Basic Italic"
-       x="89.638878"
+       x="89.007072"
        y="-453.78799"
        id="text4115"
        inkscape:export-filename="/media/PITICLI/coses/Guifi-webdev/Proposta 1/img/botons.png"
@@ -2809,7 +2791,7 @@
        inkscape:export-ydpi="90"><tspan
          sodipodi:role="line"
          id="tspan4117"
-         x="89.638878"
+         x="89.007072"
          y="-453.78799"
          style="font-size:28px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#ff3300;fill-opacity:1;font-family:FreeSans;-inkscape-font-specification:FreeSans Oblique">Què és Guifi.net?</tspan></text>
     <path
@@ -2819,7 +2801,7 @@
        style="font-size:92.52355957px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#c8c8c8;fill-opacity:1;stroke:none;font-family:Andika Basic;-inkscape-font-specification:Andika Basic"
        id="path5900"
        d="m 265.25,-435.28125 c -7.29176,-0.074 -15.20203,1.17308 -24.03125,3.53125 a 0.70717748,0.70717748 0 0 0 -0.5,0.875 c 1.38349,4.90436 3.94225,13.52925 5.96875,18.84375 a 0.70717748,0.70717748 0 0 0 0.84375,0.4375 c 7.77699,-2.17858 13.54035,-3.49165 18.78125,-2.65625 5.2409,0.8354 10.07438,3.77992 16.0625,10.34375 2.78279,3.05033 4.81591,7.77132 5.25,12.46875 0.43409,4.69743 -0.68732,9.31855 -4.0625,12.375 -4.97647,4.21669 -8.9537,4.77395 -13.40625,4.78125 -4.45255,0.007 -9.35017,-0.62737 -15.65625,1.1875 -13.09249,3.76798 -23.98167,10.32362 -37.125,25.21875 a 0.70717748,0.70717748 0 0 0 0.0937,1 L 234.25,-332.9375 A 0.70717748,0.70717748 0 0 0 235.21875,-333 c 7.66992,-8.75347 4.95908,-5.81563 14.34375,-12.90625 6.01463,-4.83787 11.11111,-5.48928 16.65625,-5.46875 5.53729,0.0205 11.49961,0.7637 18.84375,-1.375 0.01,-0.002 0.0215,0.002 0.0312,0 13.51678,-3.34445 23.81491,-14.06083 26.5625,-27.71875 0.002,-0.01 -0.002,-0.0213 0,-0.0312 3.33911,-15.64694 -3.0768,-32.02511 -13.84375,-42.4375 a 0.70717748,0.70717748 0 0 0 -0.0312,-0.0312 c -9.93803,-8.33875 -20.37752,-12.18916 -32.53125,-12.3125 z m -52.09375,97.46875 c -4.63429,0.0548 -9.26828,1.9243 -12.28125,5.8125 -0.009,0.012 -0.022,0.0192 -0.0312,0.0312 -0.70775,0.83083 -1.3338,1.74779 -1.875,2.6875 -0.007,0.0125 -0.0241,0.0188 -0.0312,0.0312 -2.27418,3.68761 -2.57668,7.94298 -1.5,11.8125 a 0.70717748,0.70717748 0 0 0 0.6875,0.53125 l 31.09375,0 a 0.70717748,0.70717748 0 0 0 0.6875,-0.53125 c 0.86555,-3.22488 0.75999,-6.75337 -0.6875,-10 l -0.0312,0 c -2.3396,-6.73917 -9.26402,-10.45499 -16.03125,-10.375 z"
-       transform="translate(0.92640579,-1.2200846)"
+       transform="translate(1.2944708,-1.2200846)"
        inkscape:export-filename="/media/PITICLI/coses/Guifi-webdev/Proposta 1/img/botons.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90" />
@@ -2828,7 +2810,7 @@
        y="0"
        xlink:href="#rect3873"
        id="use4099-2"
-       transform="translate(293.6062,-1.5170891e-5)"
+       transform="translate(297,-1.5170891e-5)"
        width="1280"
        height="2000"
        inkscape:export-filename="/media/PITICLI/coses/Guifi-webdev/Proposta 1/img/botons.png"
@@ -2836,7 +2818,7 @@
        inkscape:export-ydpi="90" />
     <path
        style="fill:#c8c8c8;fill-opacity:1;stroke:none"
-       d="m 589.45866,-452.9682 -40.37715,47.9375 -63.2697,-13.875 35.93135,50.96875 -32.4477,50.65625 5.54066,0 55.90427,-14.6875 13.50328,14.6875 30.45705,0 1.3271,-29.5625 44.69024,-17.78125 0,-11.34375 -45.71874,-16.03125 -5.54066,-60.96875 z"
+       d="m 592.7406,-453.31352 -40.37715,47.9375 -63.2697,-13.875 35.93135,50.96875 -32.4477,50.65625 5.54066,0 55.90427,-14.6875 13.50328,14.6875 30.45705,0 1.3271,-29.5625 44.69024,-17.78125 0,-11.34375 -45.71874,-16.03125 -5.54066,-60.96875 z"
        id="path5987"
        inkscape:export-filename="/media/PITICLI/coses/Guifi-webdev/Proposta 1/img/botons.png"
        inkscape:export-xdpi="90"
@@ -2844,20 +2826,19 @@
     <rect
        ry="0"
        rx="0"
-       transform="matrix(1.0000911,0,0,0.82818272,587.98127,-56.784945)"
-       style="fill:#ffffff;fill-opacity:1;stroke:url(#linearGradient5714);stroke-width:0.99990451000000002;stroke-miterlimit:4;stroke-opacity:0.23144106000000000;stroke-dasharray:none;filter:url(#filter4085-7)"
+       style="fill:#ffffff;fill-opacity:1;stroke:none;filter:url(#filter5651)"
        id="rect5710"
-       width="275.40295"
-       height="206.94456"
-       x="71.644012"
-       y="-521.90051"
+       width="276"
+       height="171.38847"
+       x="662"
+       y="-489.01456"
        inkscape:export-filename="/media/PITICLI/coses/Guifi-webdev/Proposta 1/img/botons.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90" />
     <text
        id="text4143"
        y="-453.78799"
-       x="383.23041"
+       x="386.23041"
        style="font-size:31.46065331px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#ff3300;fill-opacity:1;stroke:none;font-family:DejaVu Sans;-inkscape-font-specification:Andika Basic Italic"
        xml:space="preserve"
        inkscape:export-filename="/media/PITICLI/coses/Guifi-webdev/Proposta 1/img/botons.png"
@@ -2865,13 +2846,13 @@
        inkscape:export-ydpi="90"><tspan
          style="font-size:28px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#ff3300;fill-opacity:1;font-family:FreeSans;-inkscape-font-specification:FreeSans Oblique"
          y="-453.78799"
-         x="383.23041"
+         x="386.23041"
          id="tspan4145"
          sodipodi:role="line">Experiències</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:31.46065331px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#ff3300;fill-opacity:1;stroke:none;font-family:DejaVu Sans;-inkscape-font-specification:Andika Basic Italic"
-       x="678.38165"
+       x="681.20483"
        y="-453.78799"
        id="text4147"
        inkscape:export-filename="/media/PITICLI/coses/Guifi-webdev/Proposta 1/img/botons.png"
@@ -2879,30 +2860,30 @@
        inkscape:export-ydpi="90"><tspan
          sodipodi:role="line"
          id="tspan4149"
-         x="678.38165"
+         x="681.20483"
          y="-453.78799"
          style="font-size:28px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#ff3300;fill-opacity:1;font-family:FreeSans;-inkscape-font-specification:FreeSans Oblique">Participa-hi!</tspan></text>
     <text
        id="text4204"
        y="-419.37006"
-       x="405.65637"
+       x="408.65637"
        style="font-size:22.48370361px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#323232;fill-opacity:1;stroke:none;font-family:DejaVu Sans;-inkscape-font-specification:Andika Basic Italic"
        xml:space="preserve"
        inkscape:export-filename="/media/PITICLI/coses/Guifi-webdev/Proposta 1/img/botons.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90"><tspan
          y="-419.37006"
-         x="405.65637"
+         x="408.65637"
          sodipodi:role="line"
          id="tspan4212"
          style="font-size:16px;fill:#323232;fill-opacity:1">Particulars, empreses, </tspan><tspan
          y="-399.37006"
-         x="405.65637"
+         x="408.65637"
          sodipodi:role="line"
          id="tspan4214"
          style="font-size:16px;fill:#323232;fill-opacity:1">administracions, </tspan><tspan
          y="-379.37006"
-         x="405.65637"
+         x="408.65637"
          sodipodi:role="line"
          id="tspan4216"
          style="font-size:16px;fill:#323232;fill-opacity:1">universitats...</tspan></text>
@@ -2916,38 +2897,38 @@
     <text
        xml:space="preserve"
        style="font-size:22.48370361px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Sans;-inkscape-font-specification:Andika Basic Italic"
-       x="706.26666"
+       x="709.08984"
        y="-419.37006"
        id="text4218"
        inkscape:export-filename="/media/PITICLI/coses/Guifi-webdev/Proposta 1/img/botons.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90"><tspan
          sodipodi:role="line"
-         x="706.26666"
+         x="709.08984"
          y="-419.37006"
          id="tspan4237"
          style="font-size:16px;fill:#000000;fill-opacity:1">Descobreix com pots </tspan><tspan
          sodipodi:role="line"
-         x="706.26666"
+         x="709.08984"
          y="-399.37006"
          id="tspan4239"
          style="font-size:16px;fill:#000000;fill-opacity:1">formar part de Guifi</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:22.48370361px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#323232;fill-opacity:1;stroke:none;font-family:DejaVu Sans;-inkscape-font-specification:Andika Basic Italic"
-       x="110.32482"
+       x="109.69302"
        y="-419.37006"
        id="text4135"
        inkscape:export-filename="/media/PITICLI/coses/Guifi-webdev/Proposta 1/img/botons.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90"><tspan
          sodipodi:role="line"
-         x="110.32482"
+         x="109.69302"
          y="-419.37006"
          id="tspan4141"
          style="font-size:16px;fill:#323232;fill-opacity:1">Una xarxa que </tspan><tspan
          sodipodi:role="line"
-         x="110.32482"
+         x="109.69302"
          y="-399.37006"
          id="tspan4202"
          style="font-size:16px;fill:#323232;fill-opacity:1">uneix persones.</tspan></text>
@@ -3707,7 +3688,7 @@
     <text
        xml:space="preserve"
        style="font-size:25.79634094px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#323232;fill-opacity:1;stroke:none;font-family:DejaVu Sans;-inkscape-font-specification:Andika Basic Italic"
-       x="97.270996"
+       x="99.210022"
        y="-242.79858"
        id="text3375"
        inkscape:export-filename="/media/PITICLI/coses/Guifi-webdev/Proposta 1/img/zona-1.png"
@@ -3715,7 +3696,7 @@
        inkscape:export-ydpi="90"><tspan
          id="tspan4516"
          sodipodi:role="line"
-         x="97.270996"
+         x="99.210022"
          y="-242.79858"
          style="font-size:25.24137115px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#323232;fill-opacity:1;font-family:FreeSans;-inkscape-font-specification:FreeSans"><tspan
    style="font-size:32px;font-weight:normal;fill:#323232;fill-opacity:1;-inkscape-font-specification:FreeSans"
@@ -3723,7 +3704,7 @@
     <text
        id="text3381"
        y="-40.435303"
-       x="95.95797"
+       x="97.896996"
        style="font-size:25.4831295px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#323232;fill-opacity:1;stroke:none;font-family:DejaVu Sans;-inkscape-font-specification:Andika Basic Italic"
        xml:space="preserve"
        inkscape:export-filename="/media/PITICLI/coses/Guifi-webdev/Proposta 1/img/zona-1.png"
@@ -3731,7 +3712,7 @@
        inkscape:export-ydpi="90"><tspan
          style="font-size:22.68000031px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#323232;fill-opacity:1;font-family:FreeSans;-inkscape-font-specification:FreeSans"
          y="-40.435303"
-         x="95.95797"
+         x="97.896996"
          id="tspan3383"
          sodipodi:role="line">Actualitat</tspan></text>
     <rect
@@ -3739,7 +3720,7 @@
        id="rect3385"
        width="479"
        height="173.6741"
-       x="441.27673"
+       x="443.21576"
        y="-238.83374"
        inkscape:export-filename="/media/PITICLI/coses/Guifi-webdev/Proposta 1/img/zona-1.png"
        inkscape:export-xdpi="90"
@@ -3747,7 +3728,7 @@
     <text
        id="text3397"
        y="-245.92267"
-       x="440.65955"
+       x="442.59857"
        style="font-size:25.4831295px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#323232;fill-opacity:1;stroke:none;font-family:DejaVu Sans;-inkscape-font-specification:Andika Basic Italic"
        xml:space="preserve"
        inkscape:export-filename="/media/PITICLI/coses/Guifi-webdev/Proposta 1/img/zona-1.png"
@@ -3755,26 +3736,26 @@
        inkscape:export-ydpi="90"><tspan
          style="font-size:22.68000031px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#323232;fill-opacity:1;font-family:FreeSans;-inkscape-font-specification:FreeSans"
          y="-245.92267"
-         x="440.65955"
+         x="442.59857"
          id="tspan3399"
          sodipodi:role="line">Projectes oberts</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:22.48370361px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#ff3300;fill-opacity:1;stroke:none;font-family:DejaVu Sans;-inkscape-font-specification:Andika Basic Italic"
-       x="830.60156"
+       x="832.54059"
        y="-80.62677"
        id="text3401"
        inkscape:export-filename="/media/PITICLI/coses/Guifi-webdev/Proposta 1/img/zona-1.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90"><tspan
          sodipodi:role="line"
-         x="830.60156"
+         x="832.54059"
          y="-80.62677"
          id="tspan3403"
          style="font-size:14px;font-style:oblique;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#ff3300;fill-opacity:1;stroke:none;font-family:FreeSans;-inkscape-font-specification:FreeSans Oblique">Més...</tspan></text>
     <rect
        y="-33.346367"
-       x="95.519371"
+       x="97.458397"
        height="95.419266"
        width="825.1463"
        id="rect3455"
@@ -3785,7 +3766,7 @@
     <text
        id="text4536"
        y="-220.27466"
-       x="102.69389"
+       x="104.63292"
        style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;text-anchor:start;fill:#808080;fill-opacity:1;stroke:none;font-family:FreeSans;-inkscape-font-specification:FreeSans"
        xml:space="preserve"
        inkscape:export-filename="/media/PITICLI/coses/Guifi-webdev/Proposta 1/img/zona-1.png"
@@ -3794,19 +3775,19 @@
          id="tspan4542"
          style="font-size:13px;fill:#808080"
          y="-220.27466"
-         x="102.69389"
+         x="104.63292"
          sodipodi:role="line">+ 297 en proves, 211 en construcció i 4.855 projectats</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;text-anchor:start;fill:#4d4d4d;fill-opacity:1;stroke:none;font-family:FreeSans;-inkscape-font-specification:FreeSans"
-       x="102.69389"
+       x="104.63292"
        y="-168.27466"
        id="text4571"
        inkscape:export-filename="/media/PITICLI/coses/Guifi-webdev/Proposta 1/img/zona-1.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90"><tspan
          sodipodi:role="line"
-         x="102.69389"
+         x="104.63292"
          y="-168.27466"
          style="font-size:14px;fill:#4d4d4d;fill-opacity:1"
          id="tspan4577">Nodes operatius afegits els darrers 7 dies: <tspan
@@ -3814,13 +3795,13 @@
    style="fill:#000000">80</tspan></tspan><tspan
          id="tspan4586"
          sodipodi:role="line"
-         x="102.69389"
+         x="104.63292"
          y="-150.77466"
          style="font-size:14px;fill:#4d4d4d;fill-opacity:1" /></text>
     <text
        id="text4594"
        y="-188.27466"
-       x="102.69389"
+       x="104.63292"
        style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;text-anchor:start;fill:#4d4d4d;fill-opacity:1;stroke:none;font-family:FreeSans;-inkscape-font-specification:FreeSans"
        xml:space="preserve"
        inkscape:export-filename="/media/PITICLI/coses/Guifi-webdev/Proposta 1/img/zona-1.png"
@@ -3829,21 +3810,21 @@
          id="tspan4602"
          style="font-size:14px;fill:#4d4d4d;fill-opacity:1"
          y="-188.27466"
-         x="102.69389"
+         x="104.63292"
          sodipodi:role="line">Darrer node afegit: <tspan
    id="tspan3541"
    style="fill:#000000">Lorem Ipsum (Ipsum de Lorem)</tspan></tspan></text>
     <text
        xml:space="preserve"
        style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;text-anchor:start;fill:#4d4d4d;fill-opacity:1;stroke:none;font-family:FreeSans;-inkscape-font-specification:FreeSans"
-       x="102.69389"
+       x="104.63292"
        y="-148.27466"
        id="text4612"
        inkscape:export-filename="/media/PITICLI/coses/Guifi-webdev/Proposta 1/img/zona-1.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90"><tspan
          sodipodi:role="line"
-         x="102.69389"
+         x="104.63292"
          y="-148.27466"
          style="font-size:14px;fill:#4d4d4d;fill-opacity:1"
          id="tspan4614">Quilòmetres de xarxa: <tspan
@@ -3852,20 +3833,20 @@
     <text
        xml:space="preserve"
        style="font-size:22.48370361px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:end;text-anchor:end;fill:#ff3300;fill-opacity:1;stroke:none;font-family:DejaVu Sans;-inkscape-font-specification:Andika Basic Italic"
-       x="394.74457"
+       x="396.68359"
        y="-117.61963"
        id="text3425"
        inkscape:export-filename="/media/PITICLI/coses/Guifi-webdev/Proposta 1/img/zona-1.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90"><tspan
          sodipodi:role="line"
-         x="394.74457"
+         x="396.68359"
          y="-117.61963"
          id="tspan3427"
          style="font-size:14px;font-style:oblique;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:end;text-anchor:end;fill:#ff3300;fill-opacity:1;font-family:FreeSans;-inkscape-font-specification:FreeSans Oblique">Estadístiques i mapes...</tspan></text>
     <path
        id="path3691"
-       d="m 247.30707,-115.61963 146.22869,0"
+       d="m 249.24609,-115.61963 146.22869,0"
        style="fill:none;stroke:#666666;stroke-width:1.33216751;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
        inkscape:export-filename="/media/PITICLI/coses/Guifi-webdev/Proposta 1/img/zona-1.png"
        inkscape:export-xdpi="90"
@@ -3918,28 +3899,28 @@
          id="path4292" />
     </g>
     <g
-       id="g5701"
-       inkscape:export-filename="/media/PITICLI/coses/Guifi-webdev/Proposta 1/img/botons.png"
+       id="g5560"
+       inkscape:export-filename="/media/PITICLI/coses/Guifi-webdev/jperals/img/fletxa-gran.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90">
       <g
-         style="opacity:0.98999999;stroke:#ff3300;stroke-width:6.15497398;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-         transform="matrix(-1.1372916,0,0,1.1372916,1136.4021,347.65474)"
+         style="opacity:0.98999999000000005;stroke:#ff3300;stroke-width:4.39640986;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         transform="matrix(-1.1372916,0,0,1.1372916,1139.2253,347.65474)"
          id="g4279">
         <path
-           style="fill:none;stroke:#ff3300;stroke-width:6.15497398;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+           style="fill:none;stroke:#ff3300;stroke-width:4.39640986;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
            d="m 208.34898,-603.09928 -11.92697,-17.03854 11.35902,-17.03854"
            id="path4281" />
       </g>
       <path
          sodipodi:nodetypes="cc"
-         style="fill:none;stroke:#ff3300;stroke-width:3.99361229;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-         d="m 912.07371,-357.62283 -68.59475,0"
+         style="fill:none;stroke:#ff3300;stroke-width:3;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         d="m 914.8969,-357.62283 -68.59475,0"
          id="path4500" />
     </g>
     <g
        style="display:inline"
-       transform="matrix(1,0,0,0.8533221,761.53532,-348.285)"
+       transform="matrix(1,0,0,0.8533221,764.35851,-348.285)"
        id="g5855"
        inkscape:export-filename="/media/PITICLI/coses/Guifi-webdev/Proposta 1/img/botons.png"
        inkscape:export-xdpi="90"
@@ -4040,7 +4021,7 @@
     </g>
     <path
        style="fill:#4d4d4d;stroke:#666666;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-       d="m 679.37482,-133.58606 82.39766,0"
+       d="m 681.31384,-133.58606 82.39766,0"
        id="path4478"
        inkscape:export-filename="/media/PITICLI/coses/Guifi-webdev/Proposta 1/img/zona-1.png"
        inkscape:export-xdpi="90"
@@ -4073,7 +4054,7 @@
        sodipodi:linespacing="185%"
        id="text3602"
        y="-215.37006"
-       x="460.32483"
+       x="462.26385"
        style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:185.00000238%;writing-mode:lr-tb;text-anchor:start;fill:#ff3300;fill-opacity:1;stroke:none;font-family:FreeSans;-inkscape-font-specification:FreeSans"
        xml:space="preserve"
        inkscape:export-filename="/media/PITICLI/coses/Guifi-webdev/Proposta 1/img/zona-1.png"
@@ -4082,47 +4063,47 @@
          style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:185.00000238%;writing-mode:lr-tb;text-anchor:start;fill:#ff3300;fill-opacity:1;font-family:FreeSans;-inkscape-font-specification:FreeSans"
          id="tspan3604"
          y="-215.37006"
-         x="460.32483"
+         x="462.26385"
          sodipodi:role="line">La Coruña</tspan><tspan
          id="tspan3606"
          style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:185.00000238%;writing-mode:lr-tb;text-anchor:start;fill:#ff3300;fill-opacity:1;font-family:FreeSans;-inkscape-font-specification:FreeSans"
          y="-189.47006"
-         x="460.32483"
+         x="462.26385"
          sodipodi:role="line">Vic</tspan><tspan
          id="tspan3608"
          style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:185.00000238%;writing-mode:lr-tb;text-anchor:start;fill:#ff3300;fill-opacity:1;font-family:FreeSans;-inkscape-font-specification:FreeSans"
          y="-163.57005"
-         x="460.32483"
+         x="462.26385"
          sodipodi:role="line">Pozuelo de Alarcón</tspan><tspan
          id="tspan3610"
          style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:185.00000238%;writing-mode:lr-tb;text-anchor:start;fill:#ff3300;fill-opacity:1;font-family:FreeSans;-inkscape-font-specification:FreeSans"
          y="-137.67006"
-         x="460.32483"
+         x="462.26385"
          sodipodi:role="line">Sant Pere Pescador</tspan><tspan
          id="tspan3612"
          style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:185.00000238%;writing-mode:lr-tb;text-anchor:start;fill:#ff3300;fill-opacity:1;font-family:FreeSans;-inkscape-font-specification:FreeSans"
          y="-111.77006"
-         x="460.32483"
+         x="462.26385"
          sodipodi:role="line">Torretes de Palafrugell</tspan><tspan
          id="tspan3614"
          style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:185.00000238%;writing-mode:lr-tb;text-anchor:start;fill:#ff3300;fill-opacity:1;font-family:FreeSans;-inkscape-font-specification:FreeSans"
          y="-85.870056"
-         x="460.32483"
+         x="462.26385"
          sodipodi:role="line">Santurde de Rioja</tspan><tspan
          id="tspan3618"
          style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:185.00000238%;writing-mode:lr-tb;text-anchor:start;fill:#ff3300;fill-opacity:1;font-family:FreeSans;-inkscape-font-specification:FreeSans"
          y="-59.970055"
-         x="460.32483"
+         x="462.26385"
          sodipodi:role="line" /><tspan
          id="tspan3624"
          style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:185.00000238%;writing-mode:lr-tb;text-anchor:start;fill:#ff3300;fill-opacity:1;font-family:FreeSans;-inkscape-font-specification:FreeSans"
          y="-34.070053"
-         x="460.32483"
+         x="462.26385"
          sodipodi:role="line" /></text>
     <text
        xml:space="preserve"
        style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:185.00000238%;writing-mode:lr-tb;text-anchor:start;fill:#ff3300;fill-opacity:1;stroke:none;font-family:FreeSans;-inkscape-font-specification:FreeSans"
-       x="678.32483"
+       x="680.26385"
        y="-213.37006"
        id="text3631"
        sodipodi:linespacing="185%"
@@ -4131,42 +4112,42 @@
        inkscape:export-ydpi="90"><tspan
          id="tspan3633"
          sodipodi:role="line"
-         x="678.32483"
+         x="680.26385"
          y="-213.37006"
          style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:185.00000238%;writing-mode:lr-tb;text-anchor:start;fill:#ff3300;fill-opacity:1;font-family:FreeSans;-inkscape-font-specification:FreeSans">Santurde de Rioja</tspan><tspan
          id="tspan3635"
          sodipodi:role="line"
-         x="678.32483"
+         x="680.26385"
          y="-187.47006"
          style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:185.00000238%;writing-mode:lr-tb;text-anchor:start;fill:#ff3300;fill-opacity:1;font-family:FreeSans;-inkscape-font-specification:FreeSans">Els Pins / l'Escala</tspan><tspan
          id="tspan3637"
          sodipodi:role="line"
-         x="678.32483"
+         x="680.26385"
          y="-161.57005"
          style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:185.00000238%;writing-mode:lr-tb;text-anchor:start;fill:#ff3300;fill-opacity:1;font-family:FreeSans;-inkscape-font-specification:FreeSans">Olot</tspan><tspan
          id="tspan3639"
          sodipodi:role="line"
-         x="678.32483"
+         x="680.26385"
          y="-135.67006"
          style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:185.00000238%;writing-mode:lr-tb;text-anchor:start;fill:#ff3300;fill-opacity:1;font-family:FreeSans;-inkscape-font-specification:FreeSans">Molins de Rei</tspan><tspan
          id="tspan3641"
          sodipodi:role="line"
-         x="678.32483"
+         x="680.26385"
          y="-109.77006"
          style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:185.00000238%;writing-mode:lr-tb;text-anchor:start;fill:#ff3300;fill-opacity:1;font-family:FreeSans;-inkscape-font-specification:FreeSans">Palamós</tspan><tspan
          id="tspan3651"
          sodipodi:role="line"
-         x="678.32483"
+         x="680.26385"
          y="-83.870056"
          style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:185.00000238%;writing-mode:lr-tb;text-anchor:start;fill:#ff3300;fill-opacity:1;font-family:FreeSans;-inkscape-font-specification:FreeSans" /><tspan
          id="tspan3653"
          sodipodi:role="line"
-         x="678.32483"
+         x="680.26385"
          y="-57.970055"
          style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:185.00000238%;writing-mode:lr-tb;text-anchor:start;fill:#ff3300;fill-opacity:1;font-family:FreeSans;-inkscape-font-specification:FreeSans" /></text>
     <g
        id="g4446"
-       transform="matrix(1,0,0,0.8533221,641.87868,-136.63312)"
+       transform="matrix(1,0,0,0.8533221,643.8177,-136.63312)"
        style="display:inline"
        inkscape:export-filename="/media/PITICLI/coses/Guifi-webdev/Proposta 1/img/zona-1.png"
        inkscape:export-xdpi="90"
@@ -4282,7 +4263,7 @@
        sodipodi:linespacing="110%"
        id="text4465"
        y="-17.089653"
-       x="105.24264"
+       x="107.18166"
        style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:110.00000238%;fill:#000000;fill-opacity:1;stroke:none;font-family:FreeSans;-inkscape-font-specification:FreeSans"
        xml:space="preserve"
        inkscape:export-filename="/media/PITICLI/coses/Guifi-webdev/Proposta 1/img/zona-1.png"
@@ -4291,7 +4272,7 @@
          id="tspan4475"
          style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:110.00000238%;writing-mode:lr-tb;text-anchor:start;fill:#808080;fill-opacity:1;font-family:FreeSans;-inkscape-font-specification:FreeSans"
          y="-17.089653"
-         x="105.24264"
+         x="107.18166"
          sodipodi:role="line"><tspan
    id="tspan4620"
    style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:110.00000238%;writing-mode:lr-tb;text-anchor:start;fill:#ff3300;fill-opacity:1;font-family:FreeSans;-inkscape-font-specification:FreeSans"><tspan
@@ -4302,7 +4283,7 @@
     <text
        xml:space="preserve"
        style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:110.00000238%;fill:#000000;fill-opacity:1;stroke:none;font-family:FreeSans;-inkscape-font-specification:FreeSans"
-       x="105.24264"
+       x="107.18166"
        y="0.91034698"
        id="text4489"
        sodipodi:linespacing="110%"
@@ -4311,7 +4292,7 @@
        inkscape:export-ydpi="90"><tspan
          id="tspan4495"
          sodipodi:role="line"
-         x="105.24264"
+         x="107.18166"
          y="0.91034698"
          style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:110.00000238%;writing-mode:lr-tb;text-anchor:start;fill:#808080;fill-opacity:1;font-family:FreeSans;-inkscape-font-specification:FreeSans"><tspan
    id="tspan4623"
@@ -4324,7 +4305,7 @@
        sodipodi:linespacing="110%"
        id="text4497"
        y="18.910339"
-       x="105.24264"
+       x="107.18166"
        style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:110.00000238%;fill:#000000;fill-opacity:1;stroke:none;font-family:FreeSans;-inkscape-font-specification:FreeSans"
        xml:space="preserve"
        inkscape:export-filename="/media/PITICLI/coses/Guifi-webdev/Proposta 1/img/zona-1.png"
@@ -4333,7 +4314,7 @@
          id="tspan4503"
          style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:110.00000238%;writing-mode:lr-tb;text-anchor:start;fill:#808080;fill-opacity:1;font-family:FreeSans;-inkscape-font-specification:FreeSans"
          y="18.910339"
-         x="105.24264"
+         x="107.18166"
          sodipodi:role="line"><tspan
    id="tspan4626"
    style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:110.00000238%;writing-mode:lr-tb;text-anchor:start;fill:#ff3300;fill-opacity:1;font-family:FreeSans;-inkscape-font-specification:FreeSans"><tspan
@@ -4344,7 +4325,7 @@
     <text
        xml:space="preserve"
        style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:110.00000238%;fill:#000000;fill-opacity:1;stroke:none;font-family:FreeSans;-inkscape-font-specification:FreeSans"
-       x="105.24264"
+       x="107.18166"
        y="36.910339"
        id="text4505"
        sodipodi:linespacing="110%"
@@ -4352,7 +4333,7 @@
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90"><tspan
          sodipodi:role="line"
-         x="105.24264"
+         x="107.18166"
          y="36.910339"
          style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:110.00000238%;writing-mode:lr-tb;text-anchor:start;fill:#808080;fill-opacity:1;font-family:FreeSans;-inkscape-font-specification:FreeSans"
          id="tspan4511"><tspan
@@ -4364,7 +4345,7 @@
      id="tspan4640">Treballs de manteniment i millora de Super Node</tspan></tspan> La Comissió Europea, a través de la Vice-Presidenta, la Sra. Neelie Kroes, va fer una...</tspan></text>
     <g
        style="display:inline"
-       transform="matrix(1,0,0,0.8533221,221.87868,-116.63312)"
+       transform="matrix(1,0,0,0.8533221,223.8177,-116.63312)"
        id="g4477"
        inkscape:export-filename="/media/PITICLI/coses/Guifi-webdev/Proposta 1/img/zona-1.png"
        inkscape:export-xdpi="90"
@@ -4465,7 +4446,7 @@
     </g>
     <g
        id="g4514"
-       transform="matrix(0.30695168,0,0,0.30695168,618.01597,25.235496)"
+       transform="matrix(0.30695168,0,0,0.30695168,619.95499,25.235496)"
        inkscape:export-filename="/media/PITICLI/coses/Guifi-webdev/Proposta 1/img/zona-1.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90">
@@ -4487,7 +4468,7 @@
     <text
        id="text3709"
        y="55.37323"
-       x="830.60156"
+       x="832.54059"
        style="font-size:22.48370361px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#ff3300;fill-opacity:1;stroke:none;font-family:DejaVu Sans;-inkscape-font-specification:Andika Basic Italic"
        xml:space="preserve"
        inkscape:export-filename="/media/PITICLI/coses/Guifi-webdev/Proposta 1/img/zona-1.png"
@@ -4496,10 +4477,10 @@
          style="font-size:14px;font-style:oblique;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#ff3300;fill-opacity:1;stroke:none;font-family:FreeSans;-inkscape-font-specification:FreeSans Oblique"
          id="tspan3711"
          y="55.37323"
-         x="830.60156"
+         x="832.54059"
          sodipodi:role="line">Més...</tspan></text>
     <g
-       transform="matrix(0.30695168,0,0,0.30695168,618.01597,161.2355)"
+       transform="matrix(0.30695168,0,0,0.30695168,619.95499,161.2355)"
        id="g3713"
        inkscape:export-filename="/media/PITICLI/coses/Guifi-webdev/Proposta 1/img/zona-1.png"
        inkscape:export-xdpi="90"
@@ -4520,7 +4501,7 @@
          id="path3719" />
     </g>
     <g
-       transform="matrix(0.30695168,0,0,0.30695168,141.426,-11.534057)"
+       transform="matrix(0.30695168,0,0,0.30695168,143.36502,-11.534057)"
        id="g3721"
        inkscape:export-filename="/media/PITICLI/coses/Guifi-webdev/Proposta 1/img/zona-1.png"
        inkscape:export-xdpi="90"
@@ -4539,300 +4520,6 @@
          style="fill:none;stroke:#ff3300;stroke-width:3.99361229;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
          d="m 912.07371,-357.62283 -68.59475,0"
          id="path3727" />
-    </g>
-    <path
-       style="fill:none;stroke:#000000;stroke-width:0.99953461;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:0.20960699;stroke-dasharray:none;stroke-dashoffset:0"
-       d="m 2055.6331,-970.8797 -909.0009,0"
-       id="path14450-9"
-       inkscape:export-filename="/media/PITICLI/coses/Guifi-webdev/Proposta 1/img/botons.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
-    <rect
-       y="-521.90051"
-       x="71.644012"
-       height="206.94456"
-       width="275.40295"
-       id="rect3873-0"
-       style="fill:url(#linearGradient5906);fill-opacity:1;stroke:url(#linearGradient5908);stroke-width:0.99990451;stroke-miterlimit:4;stroke-opacity:0.23144106;stroke-dasharray:none;filter:url(#filter4085-7-5)"
-       transform="matrix(1.0000911,0,0,0.82818272,1096.6135,-563.72041)"
-       rx="6.0373149"
-       ry="6.0373149"
-       inkscape:export-filename="/media/PITICLI/coses/Guifi-webdev/Proposta 1/img/botons.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
-    <text
-       xml:space="preserve"
-       style="font-size:31.46065331px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#ff3300;fill-opacity:1;stroke:none;font-family:DejaVu Sans;-inkscape-font-specification:Andika Basic Italic"
-       x="1186.2711"
-       y="-960.72345"
-       id="text4115-4"
-       inkscape:export-filename="/media/PITICLI/coses/Guifi-webdev/Proposta 1/img/botons.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90"><tspan
-         sodipodi:role="line"
-         id="tspan4117-3"
-         x="1186.2711"
-         y="-960.72345"
-         style="font-size:28px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#ff3300;fill-opacity:1;font-family:FreeSans;-inkscape-font-specification:FreeSans Oblique">Què és Guifi.net?</tspan></text>
-    <rect
-       inkscape:export-ydpi="90"
-       inkscape:export-xdpi="90"
-       inkscape:export-filename="/media/PITICLI/coses/Guifi-webdev/Proposta 1/img/botons.png"
-       ry="6.0373149"
-       rx="6.0373149"
-       transform="matrix(1.0000911,0,0,0.82818272,1390.6135,-563.72041)"
-       style="fill:url(#linearGradient5912);fill-opacity:1;stroke:url(#linearGradient5914);stroke-width:0.99990451;stroke-miterlimit:4;stroke-opacity:0.23144106;stroke-dasharray:none;filter:url(#filter4085-7-5)"
-       id="rect5910"
-       width="275.40295"
-       height="206.94456"
-       x="71.644012"
-       y="-521.90051" />
-    <path
-       sodipodi:type="inkscape:offset"
-       inkscape:radius="0.70710677"
-       inkscape:original="M 265.25 -434.5625 C 258.04365 -434.63563 250.19336 -433.40942 241.40625 -431.0625 C 242.78689 -426.16823 245.33783 -417.54177 247.34375 -412.28125 C 262.93089 -416.6477 270.81516 -417.62855 282.90625 -404.375 C 288.72675 -397.9949 291.18958 -385.01359 284.03125 -378.53125 C 273.83532 -369.89198 267.02759 -375.95768 254.6875 -372.40625 C 241.70302 -368.66936 230.99004 -362.2339 217.90625 -347.40625 L 234.6875 -333.46875 C 242.35506 -342.21953 239.76247 -339.39486 249.125 -346.46875 C 261.41591 -356.35495 270.47192 -349.22021 284.90625 -353.4375 C 298.18708 -356.71208 308.2812 -367.20773 310.96875 -380.625 C 314.26251 -396.00001 307.92062 -412.17871 297.3125 -422.4375 C 287.47838 -430.68906 277.26058 -434.44061 265.25 -434.5625 z M 213.15625 -337.09375 C 208.69099 -337.04095 204.27085 -335.25214 201.40625 -331.53125 C 200.7078 -330.7156 200.09527 -329.83622 199.5625 -328.90625 C 197.38127 -325.39295 197.08947 -321.34664 198.125 -317.625 L 229.21875 -317.625 C 230.04695 -320.71072 229.93788 -324.07137 228.5625 -327.15625 C 226.36159 -333.59973 219.6824 -337.17089 213.15625 -337.09375 z "
-       style="font-size:92.52355957px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#c8c8c8;fill-opacity:1;stroke:none;font-family:Andika Basic;-inkscape-font-specification:Andika Basic"
-       id="path5900-3"
-       d="m 265.25,-435.28125 c -7.29176,-0.074 -15.20203,1.17308 -24.03125,3.53125 a 0.70717748,0.70717748 0 0 0 -0.5,0.875 c 1.38349,4.90436 3.94225,13.52925 5.96875,18.84375 a 0.70717748,0.70717748 0 0 0 0.84375,0.4375 c 7.77699,-2.17858 13.54035,-3.49165 18.78125,-2.65625 5.2409,0.8354 10.07438,3.77992 16.0625,10.34375 2.78279,3.05033 4.81591,7.77132 5.25,12.46875 0.43409,4.69743 -0.68732,9.31855 -4.0625,12.375 -4.97647,4.21669 -8.9537,4.77395 -13.40625,4.78125 -4.45255,0.007 -9.35017,-0.62737 -15.65625,1.1875 -13.09249,3.76798 -23.98167,10.32362 -37.125,25.21875 a 0.70717748,0.70717748 0 0 0 0.0937,1 L 234.25,-332.9375 A 0.70717748,0.70717748 0 0 0 235.21875,-333 c 7.66992,-8.75347 4.95908,-5.81563 14.34375,-12.90625 6.01463,-4.83787 11.11111,-5.48928 16.65625,-5.46875 5.53729,0.0205 11.49961,0.7637 18.84375,-1.375 0.01,-0.002 0.0215,0.002 0.0312,0 13.51678,-3.34445 23.81491,-14.06083 26.5625,-27.71875 0.002,-0.01 -0.002,-0.0213 0,-0.0312 3.33911,-15.64694 -3.0768,-32.02511 -13.84375,-42.4375 a 0.70717748,0.70717748 0 0 0 -0.0312,-0.0312 c -9.93803,-8.33875 -20.37752,-12.18916 -32.53125,-12.3125 z m -52.09375,97.46875 c -4.63429,0.0548 -9.26828,1.9243 -12.28125,5.8125 -0.009,0.012 -0.022,0.0192 -0.0312,0.0312 -0.70775,0.83083 -1.3338,1.74779 -1.875,2.6875 -0.007,0.0125 -0.0241,0.0188 -0.0312,0.0312 -2.27418,3.68761 -2.57668,7.94298 -1.5,11.8125 a 0.70717748,0.70717748 0 0 0 0.6875,0.53125 l 31.09375,0 a 0.70717748,0.70717748 0 0 0 0.6875,-0.53125 c 0.86555,-3.22488 0.75999,-6.75337 -0.6875,-10 l -0.0312,0 c -2.3396,-6.73917 -9.26402,-10.45499 -16.03125,-10.375 z"
-       transform="translate(1097.5586,-508.15554)"
-       inkscape:export-filename="/media/PITICLI/coses/Guifi-webdev/Proposta 1/img/botons.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
-    <path
-       style="fill:#c8c8c8;fill-opacity:1;stroke:none"
-       d="m 1686.0909,-959.90366 -40.3772,47.9375 -63.2697,-13.875 35.9314,50.96875 -32.4477,50.65625 5.5407,0 55.9042,-14.6875 13.5033,14.6875 30.4571,0 1.3271,-29.5625 44.6902,-17.78125 0,-11.34375 -45.7187,-16.03125 -5.5407,-60.96875 z"
-       id="path5987-2"
-       inkscape:export-filename="/media/PITICLI/coses/Guifi-webdev/Proposta 1/img/botons.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
-    <rect
-       ry="8.5380526"
-       rx="8.5380526"
-       transform="matrix(1.0000911,0,0,0.82818272,1684.6135,-563.72041)"
-       style="fill:#e1e1e1;fill-opacity:1;stroke:url(#linearGradient5714-1);stroke-width:0.99990451;stroke-miterlimit:4;stroke-opacity:0.23144106;stroke-dasharray:none;filter:url(#filter4085-7-5)"
-       id="rect5710-4"
-       width="275.40295"
-       height="206.94456"
-       x="71.644012"
-       y="-521.90051"
-       inkscape:export-filename="/media/PITICLI/coses/Guifi-webdev/Proposta 1/img/botons.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
-    <text
-       id="text4143-5"
-       y="-960.72345"
-       x="1479.8627"
-       style="font-size:31.46065331px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#ff3300;fill-opacity:1;stroke:none;font-family:DejaVu Sans;-inkscape-font-specification:Andika Basic Italic"
-       xml:space="preserve"
-       inkscape:export-filename="/media/PITICLI/coses/Guifi-webdev/Proposta 1/img/botons.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90"><tspan
-         style="font-size:28px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#ff3300;fill-opacity:1;font-family:FreeSans;-inkscape-font-specification:FreeSans Oblique"
-         y="-960.72345"
-         x="1479.8627"
-         id="tspan4145-3"
-         sodipodi:role="line">Experiències</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-size:31.46065331px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#ff3300;fill-opacity:1;stroke:none;font-family:DejaVu Sans;-inkscape-font-specification:Andika Basic Italic"
-       x="1775.0139"
-       y="-960.72345"
-       id="text4147-8"
-       inkscape:export-filename="/media/PITICLI/coses/Guifi-webdev/Proposta 1/img/botons.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90"><tspan
-         sodipodi:role="line"
-         id="tspan4149-1"
-         x="1775.0139"
-         y="-960.72345"
-         style="font-size:28px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#ff3300;fill-opacity:1;font-family:FreeSans;-inkscape-font-specification:FreeSans Oblique">Participa-hi!</tspan></text>
-    <text
-       id="text4204-1"
-       y="-926.30554"
-       x="1502.2886"
-       style="font-size:22.48370361px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#323232;fill-opacity:1;stroke:none;font-family:DejaVu Sans;-inkscape-font-specification:Andika Basic Italic"
-       xml:space="preserve"
-       inkscape:export-filename="/media/PITICLI/coses/Guifi-webdev/Proposta 1/img/botons.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90"><tspan
-         y="-926.30554"
-         x="1502.2886"
-         sodipodi:role="line"
-         id="tspan4212-3"
-         style="font-size:16px;fill:#323232;fill-opacity:1">Particulars, empreses, </tspan><tspan
-         y="-906.30554"
-         x="1502.2886"
-         sodipodi:role="line"
-         id="tspan4214-1"
-         style="font-size:16px;fill:#323232;fill-opacity:1">administracions, </tspan><tspan
-         y="-886.30554"
-         x="1502.2886"
-         sodipodi:role="line"
-         id="tspan4216-5"
-         style="font-size:16px;fill:#323232;fill-opacity:1">universitats...</tspan></text>
-    <path
-       style="fill:#c8c8c8;fill-opacity:1;stroke:none"
-       d="m 2001.9129,-955.30991 -14.8172,9.09784 -53.5495,64.7223 c -13.8427,-14.30854 -25.1194,-26.0763 -30.0601,-31.25717 l 30.0601,-28.57038 -7.6082,-8.00716 c -15.889,15.10307 -45.0635,9.23084 -45.0635,9.23084 l -36.6042,34.76861 24.3673,25.6708 21.9998,-20.88246 c 5.0381,5.30724 17.2144,18.16168 31.2838,33.06611 l -17.2114,20.82925 -9.2309,-7.66133 -4.4425,5.32037 0.399,10.16191 c -6.9363,1.90892 -15.2138,6.91499 -23.383,14.25859 l 40.0358,0 c 0.015,-0.15761 0.041,-0.32299 0.053,-0.47883 l 10.0555,-1.48971 4.3893,-5.34697 -9.151,-7.60813 16.3335,-19.71197 c 10.2678,10.89285 21.4069,22.76669 32.5075,34.63561 l 27.1605,0 c -16.2546,-16.21737 -33.271,-33.57566 -48.0164,-48.7612 l 54.3476,-65.65337 6.145,-16.33355 z m -157.5361,195.44384 c 2.5744,0.90384 5.7286,0.87057 9.2574,0 l -9.2574,0 z"
-       id="path5032-8" />
-    <text
-       xml:space="preserve"
-       style="font-size:22.48370361px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Sans;-inkscape-font-specification:Andika Basic Italic"
-       x="1802.8989"
-       y="-926.30554"
-       id="text4218-1"
-       inkscape:export-filename="/media/PITICLI/coses/Guifi-webdev/Proposta 1/img/botons.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90"><tspan
-         sodipodi:role="line"
-         x="1802.8989"
-         y="-926.30554"
-         id="tspan4237-3"
-         style="font-size:16px;fill:#000000;fill-opacity:1">Descobreix com pots </tspan><tspan
-         sodipodi:role="line"
-         x="1802.8989"
-         y="-906.30554"
-         id="tspan4239-3"
-         style="font-size:16px;fill:#000000;fill-opacity:1">formar part de Guifi</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-size:22.48370361px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#323232;fill-opacity:1;stroke:none;font-family:DejaVu Sans;-inkscape-font-specification:Andika Basic Italic"
-       x="1206.957"
-       y="-926.30554"
-       id="text4135-9"
-       inkscape:export-filename="/media/PITICLI/coses/Guifi-webdev/Proposta 1/img/botons.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90"><tspan
-         sodipodi:role="line"
-         x="1206.957"
-         y="-926.30554"
-         id="tspan4141-7"
-         style="font-size:16px;fill:#323232;fill-opacity:1">Una xarxa que </tspan><tspan
-         sodipodi:role="line"
-         x="1206.957"
-         y="-906.30554"
-         id="tspan4202-5"
-         style="font-size:16px;fill:#323232;fill-opacity:1">uneix persones.</tspan></text>
-    <g
-       transform="translate(1096.6322,-506.93546)"
-       id="g5701-4"
-       inkscape:export-filename="/media/PITICLI/coses/Guifi-webdev/Proposta 1/img/botons.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90">
-      <g
-         style="opacity:0.98999999;stroke:#ff3300;stroke-width:6.15497398;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-         transform="matrix(-1.1372916,0,0,1.1372916,1136.4021,347.65474)"
-         id="g4279-4">
-        <path
-           style="fill:none;stroke:#ff3300;stroke-width:6.15497398;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-           d="m 208.34898,-603.09928 -11.92697,-17.03854 11.35902,-17.03854"
-           id="path4281-9" />
-      </g>
-      <path
-         sodipodi:nodetypes="cc"
-         style="fill:none;stroke:#ff3300;stroke-width:3.99361229;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-         d="m 912.07371,-357.62283 -68.59475,0"
-         id="path4500-6" />
-    </g>
-    <g
-       style="display:inline"
-       transform="matrix(1,0,0,0.8533221,1858.1676,-855.22046)"
-       id="g5855-7"
-       inkscape:export-filename="/media/PITICLI/coses/Guifi-webdev/Proposta 1/img/botons.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90">
-      <path
-         sodipodi:nodetypes="cscsscccccccsc"
-         id="path5888-2"
-         d="m 105.02681,9.6298307 c -0.93564,-0.2192931 -1.17989,5.2695563 -1.06067,7.4188193 0.11742,2.116852 2.03294,2.032932 2.03294,2.032932 0,0 10.87176,0.04419 11.57887,-0.0442 0.70711,-0.08839 1.41421,-0.662912 1.41421,-1.370018 0,-0.707107 0,-8.1977087 0,-8.1977087 -1.0426,-1.2592553 -1.96481,-1.24083 -3.06234,-1.1079952 -0.8527,-1.664693 -2.11033,-1.0602327 -3.11568,-0.6485552 -0.48055,-1.9444131 -1.46341,-1.867266 -2.98312,-1.3496997 0,0 0.0257,-3.9829561 0.0257,-3.9829561 -0.007,-1.3746409 -3.03415,-1.5632288 -2.97372,0.3091917 l 0,11.2351212 c 0,0 -0.0884,-4.2949364 -0.0884,-4.2949364 0,0 -1.59099,10e-8 -1.76776,10e-8 z"
-         style="opacity:0.42285713;color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1.08253884;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:block;overflow:visible;filter:url(#filter5894-4);enable-background:accumulate" />
-      <path
-         style="color:#000000;fill:url(#linearGradient4444-0);fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1.08253884;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:block;overflow:visible;enable-background:accumulate"
-         d="m 104.65181,8.9832085 c -0.93564,-0.2192931 -1.17989,5.2695585 -1.06067,7.4188215 0.11742,2.116852 1.41422,2.032932 2.03294,2.032932 0,0 10.87176,0.04419 11.57887,-0.04419 0.70711,-0.08839 1.41421,-0.973656 1.41421,-2.198669 0,0 0,-7.3690599 0,-7.3690599 -1.0426,-1.2592553 -1.96481,-1.24083 -3.06234,-1.1079952 -0.8527,-1.664693 -2.11033,-1.0602327 -3.11568,-0.6485552 -0.48055,-1.9444131 -1.46341,-1.867266 -2.98312,-1.3496997 0,0 0.0257,-3.9829561 0.0257,-3.9829561 -0.007,-1.37464053 -3.03415,-1.56322842 -2.97372,0.3091917 l 0,11.2351234 c 0,0 -0.0884,-4.2949386 -0.0884,-4.2949386 0,0 -1.59099,10e-8 -1.76776,10e-8 z"
-         id="path5859-1"
-         sodipodi:nodetypes="cscsscccccccsc" />
-      <path
-         style="color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:block;overflow:visible;enable-background:accumulate"
-         d="m 108.96074,6.4318483 0,4.3714247 c 0.30936,-1.2122268 0.28899,-4.0538337 1.06066,-4.7242856 l -1.06066,0.3528609 z"
-         id="path5861-0"
-         sodipodi:nodetypes="cccc" />
-      <path
-         sodipodi:nodetypes="cccc"
-         id="path5863-1"
-         d="m 111.85546,6.8844922 0.55242,4.0955578 0.53033,-4.02167 -1.08275,-0.073888 z"
-         style="color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:block;overflow:visible;enable-background:accumulate" />
-      <path
-         style="color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:block;overflow:visible;enable-background:accumulate"
-         d="m 115.10373,7.6433894 0.28726,3.4471456 0.57452,-3.4029514 -0.86178,-0.044194 z"
-         id="path5865-3"
-         sodipodi:nodetypes="cccc" />
-      <g
-         id="g5867-7">
-        <path
-           d="m 109.9993,13.090322 c 0,0.56748 -0.45014,1.027514 -1.00542,1.027514 -0.55528,0 -1.00542,-0.460034 -1.00542,-1.027514 0,-0.567481 0.45014,-1.027515 1.00542,-1.027515 0.55528,0 1.00542,0.460034 1.00542,1.027515 z"
-           sodipodi:ry="1.0275146"
-           sodipodi:rx="1.0054175"
-           sodipodi:cy="13.090322"
-           sodipodi:cx="108.99388"
-           id="path5869-7"
-           style="color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:block;overflow:visible;enable-background:accumulate"
-           sodipodi:type="arc" />
-        <path
-           transform="translate(0,-0.2872621)"
-           sodipodi:type="arc"
-           style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:block;overflow:visible;enable-background:accumulate"
-           id="path5871-6"
-           sodipodi:cx="108.99388"
-           sodipodi:cy="13.090322"
-           sodipodi:rx="1.0054175"
-           sodipodi:ry="1.0275146"
-           d="m 109.9993,13.090322 c 0,0.56748 -0.45014,1.027514 -1.00542,1.027514 -0.55528,0 -1.00542,-0.460034 -1.00542,-1.027514 0,-0.567481 0.45014,-1.027515 1.00542,-1.027515 0.55528,0 1.00542,0.460034 1.00542,1.027515 z" />
-      </g>
-      <g
-         id="g5873-3"
-         transform="translate(2.9610097,0)">
-        <path
-           sodipodi:type="arc"
-           style="color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:block;overflow:visible;enable-background:accumulate"
-           id="path5876-9"
-           sodipodi:cx="108.99388"
-           sodipodi:cy="13.090322"
-           sodipodi:rx="1.0054175"
-           sodipodi:ry="1.0275146"
-           d="m 109.9993,13.090322 c 0,0.56748 -0.45014,1.027514 -1.00542,1.027514 -0.55528,0 -1.00542,-0.460034 -1.00542,-1.027514 0,-0.567481 0.45014,-1.027515 1.00542,-1.027515 0.55528,0 1.00542,0.460034 1.00542,1.027515 z" />
-        <path
-           d="m 109.9993,13.090322 c 0,0.56748 -0.45014,1.027514 -1.00542,1.027514 -0.55528,0 -1.00542,-0.460034 -1.00542,-1.027514 0,-0.567481 0.45014,-1.027515 1.00542,-1.027515 0.55528,0 1.00542,0.460034 1.00542,1.027515 z"
-           sodipodi:ry="1.0275146"
-           sodipodi:rx="1.0054175"
-           sodipodi:cy="13.090322"
-           sodipodi:cx="108.99388"
-           id="path5878-1"
-           style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:block;overflow:visible;enable-background:accumulate"
-           sodipodi:type="arc"
-           transform="translate(0,-0.2872621)" />
-      </g>
-      <g
-         transform="translate(5.8999223,0)"
-         id="g5880-0">
-        <path
-           d="m 109.9993,13.090322 c 0,0.56748 -0.45014,1.027514 -1.00542,1.027514 -0.55528,0 -1.00542,-0.460034 -1.00542,-1.027514 0,-0.567481 0.45014,-1.027515 1.00542,-1.027515 0.55528,0 1.00542,0.460034 1.00542,1.027515 z"
-           sodipodi:ry="1.0275146"
-           sodipodi:rx="1.0054175"
-           sodipodi:cy="13.090322"
-           sodipodi:cx="108.99388"
-           id="path5882-4"
-           style="color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:block;overflow:visible;enable-background:accumulate"
-           sodipodi:type="arc" />
-        <path
-           transform="translate(0,-0.2872621)"
-           sodipodi:type="arc"
-           style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:block;overflow:visible;enable-background:accumulate"
-           id="path5884-1"
-           sodipodi:cx="108.99388"
-           sodipodi:cy="13.090322"
-           sodipodi:rx="1.0054175"
-           sodipodi:ry="1.0275146"
-           d="m 109.9993,13.090322 c 0,0.56748 -0.45014,1.027514 -1.00542,1.027514 -0.55528,0 -1.00542,-0.460034 -1.00542,-1.027514 0,-0.567481 0.45014,-1.027515 1.00542,-1.027515 0.55528,0 1.00542,0.460034 1.00542,1.027515 z" />
-      </g>
     </g>
   </g>
 </svg>
