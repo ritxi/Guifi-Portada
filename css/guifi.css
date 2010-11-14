@@ -36,6 +36,9 @@ body {
 }
 
 .capsa {
+    position: relative;
+    margin-top:10px;
+    margin-bottom:20px;
     border-top:1px solid #BBB;
     border-right:1px solid #888;
     border-bottom:1px solid #888;
@@ -44,7 +47,7 @@ body {
     -webkit-box-shadow:5px 6px 20px #5F5F5F;
     -moz-box-shadow:5px 6px 20px #5F5F5F;
     filter:progid:DXImageTransform.Microsoft.dropShadow(color=#5F5F5F,offX=5,offY=6,positive=true);
-    position: relative;
+    background:#FFF;
 }
 
 /* bàner */
@@ -102,7 +105,8 @@ body {
 /* els 3 botons */
 
 #botons {
-    margin: -27px 0 0;
+    margin: -27px 0 20px;
+    height:172px;
 }
 
 #botons .boto {
@@ -252,7 +256,7 @@ a.padrins,a.padrins:visited,a.padrins:active {
 #peu {
     background-color:#AAA;
     border-top:1px solid #AAA;
-    padding:53px 59px 20px;
+    padding:33px 59px 20px;
     width:792px;
 }
 

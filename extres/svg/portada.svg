@@ -27,8 +27,8 @@
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.5"
-     inkscape:cx="733.52368"
-     inkscape:cy="541.62371"
+     inkscape:cx="829.81871"
+     inkscape:cy="462.59427"
      inkscape:document-units="px"
      inkscape:current-layer="capa1"
      showgrid="false"
@@ -44,7 +44,7 @@
      inkscape:object-paths="true"
      inkscape:object-nodes="true"
      inkscape:snap-intersection-paths="false"
-     inkscape:snap-global="true"
+     inkscape:snap-global="false"
      showguides="false"
      inkscape:snap-bbox="false"
      inkscape:bbox-nodes="true"
@@ -87,18 +87,6 @@
          style="stop-color:#ececec;stop-opacity:1;"
          offset="1"
          id="stop4228" />
-    </linearGradient>
-    <linearGradient
-       inkscape:collect="always"
-       id="linearGradient4186">
-      <stop
-         style="stop-color:#000000;stop-opacity:1;"
-         offset="0"
-         id="stop4188" />
-      <stop
-         style="stop-color:#000000;stop-opacity:0;"
-         offset="1"
-         id="stop4190" />
     </linearGradient>
     <linearGradient
        id="linearGradient6191">
@@ -2353,15 +2341,6 @@
        y2="17.632534" />
     <linearGradient
        inkscape:collect="always"
-       xlink:href="#linearGradient4186"
-       id="linearGradient3592"
-       gradientUnits="userSpaceOnUse"
-       x1="209.34549"
-       y1="-314.95593"
-       x2="209.34549"
-       y2="-423.2648" />
-    <linearGradient
-       inkscape:collect="always"
        xlink:href="#linearGradient3775"
        id="linearGradient4530"
        gradientUnits="userSpaceOnUse"
@@ -2386,15 +2365,6 @@
        inkscape:vp_y="0 : 1000 : 0"
        inkscape:vp_x="0 : 0.5 : 1"
        sodipodi:type="inkscape:persp3d" />
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient4186-3"
-       id="linearGradient5714-1"
-       gradientUnits="userSpaceOnUse"
-       x1="209.34549"
-       y1="-314.95593"
-       x2="209.34549"
-       y2="-442.57748" />
     <linearGradient
        inkscape:collect="always"
        id="linearGradient4186-3">
@@ -2567,24 +2537,6 @@
            in="SourceGraphic" />
       </feMerge>
     </filter>
-    <filter
-       color-interpolation-filters="sRGB"
-       inkscape:collect="always"
-       id="filter5894-4">
-      <feGaussianBlur
-         inkscape:collect="always"
-         stdDeviation="0.69763997"
-         id="feGaussianBlur5896-2" />
-    </filter>
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient5716-0"
-       id="linearGradient4444-0"
-       gradientUnits="userSpaceOnUse"
-       x1="112.12776"
-       y1="14.445171"
-       x2="112.12776"
-       y2="17.632534" />
     <linearGradient
        id="linearGradient5716-0">
       <stop
@@ -2596,42 +2548,6 @@
          offset="1"
          id="stop5720-3" />
     </linearGradient>
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient6050-1"
-       id="linearGradient5906"
-       gradientUnits="userSpaceOnUse"
-       x1="209.34549"
-       y1="-314.95593"
-       x2="209.34549"
-       y2="-423.2648" />
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient4186-3"
-       id="linearGradient5908"
-       gradientUnits="userSpaceOnUse"
-       x1="209.34549"
-       y1="-314.95593"
-       x2="209.34549"
-       y2="-423.2648" />
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient6050-1"
-       id="linearGradient5912"
-       gradientUnits="userSpaceOnUse"
-       x1="209.34549"
-       y1="-314.95593"
-       x2="209.34549"
-       y2="-423.2648" />
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient4186-3"
-       id="linearGradient5914"
-       gradientUnits="userSpaceOnUse"
-       x1="209.34549"
-       y1="-314.95593"
-       x2="209.34549"
-       y2="-423.2648" />
     <linearGradient
        inkscape:collect="always"
        xlink:href="#linearGradient6050"
@@ -2691,7 +2607,7 @@
        x="50.000004"
        y="-917.63782"
        id="rect4125"
-       inkscape:export-filename="/media/PITICLI/coses/Guifi-webdev/Proposta 1/img/banner.png"
+       inkscape:export-filename="/media/PITICLI/coses/Guifi-webdev/jperals/img/banner.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90" />
     <rect
@@ -2701,7 +2617,7 @@
        height="116.70823"
        x="50.000004"
        y="-580.65247"
-       inkscape:export-filename="/media/PITICLI/coses/Guifi-webdev/Proposta 1/img/banner.png"
+       inkscape:export-filename="/media/PITICLI/coses/Guifi-webdev/jperals/img/banner.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90" />
     <rect
@@ -2711,9 +2627,9 @@
        height="89"
        x="50.000008"
        y="-917.54755"
-       inkscape:export-filename="/media/PITICLI/coses/Guifi-webdev/Proposta 1/img/banner.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
+       inkscape:export-filename="/media/PITICLI/coses/Guifi-webdev/jperals/img/tiles/banner-bg.png"
+       inkscape:export-xdpi="0.0989011"
+       inkscape:export-ydpi="0.0989011" />
     <rect
        y="-463.94424"
        x="50.000008"
@@ -2725,19 +2641,19 @@
        ry="0"
        rx="0"
        transform="matrix(1.0000911,0,0,0.82818272,1.9202887,146.86181)"
-       style="fill:#ffffff;fill-opacity:1;stroke:url(#linearGradient3592);stroke-width:0.99990451;stroke-miterlimit:4;stroke-opacity:0.23144106;stroke-dasharray:none;filter:url(#filter5042)"
+       style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.99990451000000002;stroke-miterlimit:4;stroke-opacity:0.23144106000000000;stroke-dasharray:none;filter:url(#filter5651)"
        id="rect3588"
        width="862.24811"
        height="437.47202"
        x="71.644012"
        y="-521.90051"
-       inkscape:export-filename="/media/PITICLI/coses/Guifi-webdev/Proposta 1/img/zona-1.png"
+       inkscape:export-filename="/media/PITICLI/coses/Guifi-webdev/jperals/img/provisionals/zona-1.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90" />
     <text
        xml:space="preserve"
        style="font-size:15.32952881px;font-style:normal;font-weight:bold;text-align:start;line-height:139.99999762%;writing-mode:lr-tb;text-anchor:start;fill:#323232;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans;-inkscape-font-specification:Andika Basic Bold"
-       x="404.22632"
+       x="403.85938"
        y="-882.67383"
        id="text2957"
        sodipodi:linespacing="140%"
@@ -2746,11 +2662,11 @@
        inkscape:export-ydpi="90"><tspan
          sodipodi:role="line"
          id="tspan2959"
-         x="404.22632"
+         x="403.85938"
          y="-882.67383"
          style="font-size:20px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:139.99999762%;writing-mode:lr-tb;text-anchor:start;fill:#323232;fill-opacity:1;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans Oblique">Xarxa Oberta, Lliure i Neutral</tspan><tspan
          sodipodi:role="line"
-         x="404.22632"
+         x="403.85938"
          y="-854.67383"
          id="tspan2961"
          style="font-size:20px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:139.99999762%;writing-mode:lr-tb;text-anchor:start;fill:#323232;fill-opacity:1;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans Oblique">Internet per a Tothom</tspan></text>
@@ -2936,7 +2852,7 @@
        id="g4267"
        transform="matrix(0.79045778,0,0,0.79045778,-94.361484,-65.150433)"
        style="opacity:0.7"
-       inkscape:export-filename="/media/PITICLI/coses/Guifi-webdev/Proposta 1/img/banner.png"
+       inkscape:export-filename="/media/PITICLI/coses/Guifi-webdev/jperals/img/banner.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90">
       <path
@@ -2952,7 +2868,7 @@
        transform="matrix(-1,0,0,1,1009.8519,0)"
        width="1280"
        height="2000"
-       inkscape:export-filename="/media/PITICLI/coses/Guifi-webdev/Proposta 1/img/banner.png"
+       inkscape:export-filename="/media/PITICLI/coses/Guifi-webdev/jperals/img/banner.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90" />
     <a
@@ -2969,8 +2885,8 @@
     </a>
     <g
        id="g3738"
-       transform="matrix(0.10444083,0,0,0.10444083,107.0489,-906.34109)"
-       inkscape:export-filename="/media/PITICLI/coses/Guifi-webdev/Proposta 1/img/banner.png"
+       transform="matrix(0.10444083,0,0,0.10444083,107.00068,-906.34109)"
+       inkscape:export-filename="/media/PITICLI/coses/Guifi-webdev/jperals/img/guifi-logo.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90">
       <path
@@ -2990,7 +2906,7 @@
          style="fill-rule:evenodd" />
       <polygon
          id="polygon3750"
-         points="684.663,486.965 747.155,144.371 820.442,144.371 757.957,486.965 "
+         points="747.155,144.371 820.442,144.371 757.957,486.965 684.663,486.965 "
          clip-rule="evenodd"
          style="fill-rule:evenodd" />
       <g
@@ -3165,7 +3081,7 @@
        x="104.99955"
        y="-544.78241"
        id="text4881"
-       inkscape:export-filename="/media/PITICLI/coses/Guifi-webdev/Proposta 1/img/banner.png"
+       inkscape:export-filename="/media/PITICLI/coses/Guifi-webdev/jperals/img/banner.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90"><tspan
          sodipodi:role="line"
@@ -3178,7 +3094,7 @@
        x="177.799"
        y="-522.36823"
        id="text5147"
-       inkscape:export-filename="/media/PITICLI/coses/Guifi-webdev/Proposta 1/img/banner.png"
+       inkscape:export-filename="/media/PITICLI/coses/Guifi-webdev/jperals/img/banner.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90"><tspan
          sodipodi:role="line"
@@ -3217,14 +3133,14 @@
        y="-913.51636"
        ry="0"
        rx="0"
-       inkscape:export-filename="/media/PITICLI/coses/Guifi-webdev/Proposta 1/img/banner.png"
+       inkscape:export-filename="/media/PITICLI/coses/Guifi-webdev/jperals/img/capsa-banner.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90" />
     <g
        id="g6046"
        style="stroke:#838383;stroke-width:3;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
        transform="translate(173,-4.258305)"
-       inkscape:export-filename="/media/PITICLI/coses/Guifi-webdev/Proposta 1/img/banner.png"
+       inkscape:export-filename="/media/PITICLI/coses/Guifi-webdev/jperals/img/capsa-banner.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90">
       <path
@@ -3249,7 +3165,7 @@
        x="812.75"
        style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#b3b3b3;fill-opacity:1;stroke:none;font-family:FreeSans;-inkscape-font-specification:FreeSans"
        xml:space="preserve"
-       inkscape:export-filename="/media/PITICLI/coses/Guifi-webdev/Proposta 1/img/banner.png"
+       inkscape:export-filename="/media/PITICLI/coses/Guifi-webdev/jperals/img/capsa-banner.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90"><tspan
          y="-900.40039"
@@ -3266,7 +3182,7 @@
        id="rect14252"
        style="fill:url(#linearGradient4511);fill-opacity:1;stroke:url(#linearGradient4513);stroke-opacity:1"
        transform="scale(1,-1)"
-       inkscape:export-filename="/media/PITICLI/coses/Guifi-webdev/Proposta 1/img/banner.png"
+       inkscape:export-filename="/media/PITICLI/coses/Guifi-webdev/jperals/img/capsa-banner.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90" />
     <path
@@ -3285,7 +3201,7 @@
        inkscape:randomized="0"
        d="m 913.91017,107.9747 0,-22.827821 19.76948,11.413912 -19.76948,11.413909 z"
        transform="matrix(0.23455639,-0.13542119,0.13542119,0.23455639,717.6888,-779.47141)"
-       inkscape:export-filename="/media/PITICLI/coses/Guifi-webdev/Proposta 1/img/banner.png"
+       inkscape:export-filename="/media/PITICLI/coses/Guifi-webdev/jperals/img/capsa-banner.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90" />
     <g
@@ -3688,19 +3604,29 @@
     <text
        xml:space="preserve"
        style="font-size:25.79634094px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#323232;fill-opacity:1;stroke:none;font-family:DejaVu Sans;-inkscape-font-specification:Andika Basic Italic"
-       x="99.210022"
-       y="-242.79858"
+       x="603.21002"
+       y="-234.79858"
        id="text3375"
        inkscape:export-filename="/media/PITICLI/coses/Guifi-webdev/Proposta 1/img/zona-1.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90"><tspan
          id="tspan4516"
          sodipodi:role="line"
-         x="99.210022"
-         y="-242.79858"
+         x="603.21002"
+         y="-234.79858"
          style="font-size:25.24137115px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#323232;fill-opacity:1;font-family:FreeSans;-inkscape-font-specification:FreeSans"><tspan
    style="font-size:32px;font-weight:normal;fill:#323232;fill-opacity:1;-inkscape-font-specification:FreeSans"
    id="tspan3379">11.102</tspan> nodes operatius.</tspan></text>
+    <rect
+       y="-61.346367"
+       x="97.458397"
+       height="123.41927"
+       width="825.1463"
+       id="rect3455"
+       style="fill:#ececec;fill-opacity:1;stroke:none"
+       inkscape:export-filename="/media/PITICLI/coses/Guifi-webdev/Proposta 1/img/zona-1.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
     <text
        id="text3381"
        y="-40.435303"
@@ -3719,16 +3645,16 @@
        style="fill:#ececec;fill-opacity:1;stroke:none"
        id="rect3385"
        width="479"
-       height="173.6741"
-       x="443.21576"
-       y="-238.83374"
+       height="199.6741"
+       x="101.21576"
+       y="-264.83374"
        inkscape:export-filename="/media/PITICLI/coses/Guifi-webdev/Proposta 1/img/zona-1.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90" />
     <text
        id="text3397"
        y="-245.92267"
-       x="442.59857"
+       x="100.59857"
        style="font-size:25.4831295px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#323232;fill-opacity:1;stroke:none;font-family:DejaVu Sans;-inkscape-font-specification:Andika Basic Italic"
        xml:space="preserve"
        inkscape:export-filename="/media/PITICLI/coses/Guifi-webdev/Proposta 1/img/zona-1.png"
@@ -3736,37 +3662,27 @@
        inkscape:export-ydpi="90"><tspan
          style="font-size:22.68000031px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#323232;fill-opacity:1;font-family:FreeSans;-inkscape-font-specification:FreeSans"
          y="-245.92267"
-         x="442.59857"
+         x="100.59857"
          id="tspan3399"
          sodipodi:role="line">Projectes oberts</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:22.48370361px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#ff3300;fill-opacity:1;stroke:none;font-family:DejaVu Sans;-inkscape-font-specification:Andika Basic Italic"
-       x="832.54059"
+       x="490.54059"
        y="-80.62677"
        id="text3401"
        inkscape:export-filename="/media/PITICLI/coses/Guifi-webdev/Proposta 1/img/zona-1.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90"><tspan
          sodipodi:role="line"
-         x="832.54059"
+         x="490.54059"
          y="-80.62677"
          id="tspan3403"
          style="font-size:14px;font-style:oblique;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#ff3300;fill-opacity:1;stroke:none;font-family:FreeSans;-inkscape-font-specification:FreeSans Oblique">Més...</tspan></text>
-    <rect
-       y="-33.346367"
-       x="97.458397"
-       height="95.419266"
-       width="825.1463"
-       id="rect3455"
-       style="fill:#ececec;fill-opacity:1;stroke:none"
-       inkscape:export-filename="/media/PITICLI/coses/Guifi-webdev/Proposta 1/img/zona-1.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
     <text
        id="text4536"
-       y="-220.27466"
-       x="104.63292"
+       y="-212.27466"
+       x="608.63293"
        style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;text-anchor:start;fill:#808080;fill-opacity:1;stroke:none;font-family:FreeSans;-inkscape-font-specification:FreeSans"
        xml:space="preserve"
        inkscape:export-filename="/media/PITICLI/coses/Guifi-webdev/Proposta 1/img/zona-1.png"
@@ -3774,34 +3690,13 @@
        inkscape:export-ydpi="90"><tspan
          id="tspan4542"
          style="font-size:13px;fill:#808080"
-         y="-220.27466"
-         x="104.63292"
+         y="-212.27466"
+         x="608.63293"
          sodipodi:role="line">+ 297 en proves, 211 en construcció i 4.855 projectats</tspan></text>
     <text
-       xml:space="preserve"
-       style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;text-anchor:start;fill:#4d4d4d;fill-opacity:1;stroke:none;font-family:FreeSans;-inkscape-font-specification:FreeSans"
-       x="104.63292"
-       y="-168.27466"
-       id="text4571"
-       inkscape:export-filename="/media/PITICLI/coses/Guifi-webdev/Proposta 1/img/zona-1.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90"><tspan
-         sodipodi:role="line"
-         x="104.63292"
-         y="-168.27466"
-         style="font-size:14px;fill:#4d4d4d;fill-opacity:1"
-         id="tspan4577">Nodes operatius afegits els darrers 7 dies: <tspan
-   id="tspan3543"
-   style="fill:#000000">80</tspan></tspan><tspan
-         id="tspan4586"
-         sodipodi:role="line"
-         x="104.63292"
-         y="-150.77466"
-         style="font-size:14px;fill:#4d4d4d;fill-opacity:1" /></text>
-    <text
        id="text4594"
-       y="-188.27466"
-       x="104.63292"
+       y="-192.27466"
+       x="608.63293"
        style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;text-anchor:start;fill:#4d4d4d;fill-opacity:1;stroke:none;font-family:FreeSans;-inkscape-font-specification:FreeSans"
        xml:space="preserve"
        inkscape:export-filename="/media/PITICLI/coses/Guifi-webdev/Proposta 1/img/zona-1.png"
@@ -3809,44 +3704,28 @@
        inkscape:export-ydpi="90"><tspan
          id="tspan4602"
          style="font-size:14px;fill:#4d4d4d;fill-opacity:1"
-         y="-188.27466"
-         x="104.63292"
+         y="-192.27466"
+         x="608.63293"
          sodipodi:role="line">Darrer node afegit: <tspan
    id="tspan3541"
    style="fill:#000000">Lorem Ipsum (Ipsum de Lorem)</tspan></tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;text-anchor:start;fill:#4d4d4d;fill-opacity:1;stroke:none;font-family:FreeSans;-inkscape-font-specification:FreeSans"
-       x="104.63292"
-       y="-148.27466"
-       id="text4612"
-       inkscape:export-filename="/media/PITICLI/coses/Guifi-webdev/Proposta 1/img/zona-1.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90"><tspan
-         sodipodi:role="line"
-         x="104.63292"
-         y="-148.27466"
-         style="font-size:14px;fill:#4d4d4d;fill-opacity:1"
-         id="tspan4614">Quilòmetres de xarxa: <tspan
-   id="tspan3545"
-   style="fill:#000000">16.860,70</tspan></tspan></text>
-    <text
-       xml:space="preserve"
        style="font-size:22.48370361px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:end;text-anchor:end;fill:#ff3300;fill-opacity:1;stroke:none;font-family:DejaVu Sans;-inkscape-font-specification:Andika Basic Italic"
-       x="396.68359"
-       y="-117.61963"
+       x="888.68359"
+       y="-171.61963"
        id="text3425"
        inkscape:export-filename="/media/PITICLI/coses/Guifi-webdev/Proposta 1/img/zona-1.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90"><tspan
          sodipodi:role="line"
-         x="396.68359"
-         y="-117.61963"
+         x="888.68359"
+         y="-171.61963"
          id="tspan3427"
          style="font-size:14px;font-style:oblique;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:end;text-anchor:end;fill:#ff3300;fill-opacity:1;font-family:FreeSans;-inkscape-font-specification:FreeSans Oblique">Estadístiques i mapes...</tspan></text>
     <path
        id="path3691"
-       d="m 249.24609,-115.61963 146.22869,0"
+       d="m 741.24609,-169.61963 146.22869,0"
        style="fill:none;stroke:#666666;stroke-width:1.33216751;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
        inkscape:export-filename="/media/PITICLI/coses/Guifi-webdev/Proposta 1/img/zona-1.png"
        inkscape:export-xdpi="90"
@@ -3857,7 +3736,7 @@
        x="863.99994"
        y="-877.04688"
        id="text14254"
-       inkscape:export-filename="/media/PITICLI/coses/Guifi-webdev/Proposta 1/img/banner.png"
+       inkscape:export-filename="/media/PITICLI/coses/Guifi-webdev/jperals/img/capsa-banner.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90"><tspan
          sodipodi:role="line"
@@ -4021,7 +3900,7 @@
     </g>
     <path
        style="fill:#4d4d4d;stroke:#666666;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-       d="m 681.31384,-133.58606 82.39766,0"
+       d="m 339.31384,-133.58606 82.39766,0"
        id="path4478"
        inkscape:export-filename="/media/PITICLI/coses/Guifi-webdev/Proposta 1/img/zona-1.png"
        inkscape:export-xdpi="90"
@@ -4054,7 +3933,7 @@
        sodipodi:linespacing="185%"
        id="text3602"
        y="-215.37006"
-       x="462.26385"
+       x="120.26385"
        style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:185.00000238%;writing-mode:lr-tb;text-anchor:start;fill:#ff3300;fill-opacity:1;stroke:none;font-family:FreeSans;-inkscape-font-specification:FreeSans"
        xml:space="preserve"
        inkscape:export-filename="/media/PITICLI/coses/Guifi-webdev/Proposta 1/img/zona-1.png"
@@ -4063,47 +3942,47 @@
          style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:185.00000238%;writing-mode:lr-tb;text-anchor:start;fill:#ff3300;fill-opacity:1;font-family:FreeSans;-inkscape-font-specification:FreeSans"
          id="tspan3604"
          y="-215.37006"
-         x="462.26385"
+         x="120.26385"
          sodipodi:role="line">La Coruña</tspan><tspan
          id="tspan3606"
          style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:185.00000238%;writing-mode:lr-tb;text-anchor:start;fill:#ff3300;fill-opacity:1;font-family:FreeSans;-inkscape-font-specification:FreeSans"
          y="-189.47006"
-         x="462.26385"
+         x="120.26385"
          sodipodi:role="line">Vic</tspan><tspan
          id="tspan3608"
          style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:185.00000238%;writing-mode:lr-tb;text-anchor:start;fill:#ff3300;fill-opacity:1;font-family:FreeSans;-inkscape-font-specification:FreeSans"
          y="-163.57005"
-         x="462.26385"
+         x="120.26385"
          sodipodi:role="line">Pozuelo de Alarcón</tspan><tspan
          id="tspan3610"
          style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:185.00000238%;writing-mode:lr-tb;text-anchor:start;fill:#ff3300;fill-opacity:1;font-family:FreeSans;-inkscape-font-specification:FreeSans"
          y="-137.67006"
-         x="462.26385"
+         x="120.26385"
          sodipodi:role="line">Sant Pere Pescador</tspan><tspan
          id="tspan3612"
          style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:185.00000238%;writing-mode:lr-tb;text-anchor:start;fill:#ff3300;fill-opacity:1;font-family:FreeSans;-inkscape-font-specification:FreeSans"
          y="-111.77006"
-         x="462.26385"
+         x="120.26385"
          sodipodi:role="line">Torretes de Palafrugell</tspan><tspan
          id="tspan3614"
          style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:185.00000238%;writing-mode:lr-tb;text-anchor:start;fill:#ff3300;fill-opacity:1;font-family:FreeSans;-inkscape-font-specification:FreeSans"
          y="-85.870056"
-         x="462.26385"
+         x="120.26385"
          sodipodi:role="line">Santurde de Rioja</tspan><tspan
          id="tspan3618"
          style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:185.00000238%;writing-mode:lr-tb;text-anchor:start;fill:#ff3300;fill-opacity:1;font-family:FreeSans;-inkscape-font-specification:FreeSans"
          y="-59.970055"
-         x="462.26385"
+         x="120.26385"
          sodipodi:role="line" /><tspan
          id="tspan3624"
          style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:185.00000238%;writing-mode:lr-tb;text-anchor:start;fill:#ff3300;fill-opacity:1;font-family:FreeSans;-inkscape-font-specification:FreeSans"
          y="-34.070053"
-         x="462.26385"
+         x="120.26385"
          sodipodi:role="line" /></text>
     <text
        xml:space="preserve"
        style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:185.00000238%;writing-mode:lr-tb;text-anchor:start;fill:#ff3300;fill-opacity:1;stroke:none;font-family:FreeSans;-inkscape-font-specification:FreeSans"
-       x="680.26385"
+       x="338.26385"
        y="-213.37006"
        id="text3631"
        sodipodi:linespacing="185%"
@@ -4112,42 +3991,42 @@
        inkscape:export-ydpi="90"><tspan
          id="tspan3633"
          sodipodi:role="line"
-         x="680.26385"
+         x="338.26385"
          y="-213.37006"
          style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:185.00000238%;writing-mode:lr-tb;text-anchor:start;fill:#ff3300;fill-opacity:1;font-family:FreeSans;-inkscape-font-specification:FreeSans">Santurde de Rioja</tspan><tspan
          id="tspan3635"
          sodipodi:role="line"
-         x="680.26385"
+         x="338.26385"
          y="-187.47006"
          style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:185.00000238%;writing-mode:lr-tb;text-anchor:start;fill:#ff3300;fill-opacity:1;font-family:FreeSans;-inkscape-font-specification:FreeSans">Els Pins / l'Escala</tspan><tspan
          id="tspan3637"
          sodipodi:role="line"
-         x="680.26385"
+         x="338.26385"
          y="-161.57005"
          style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:185.00000238%;writing-mode:lr-tb;text-anchor:start;fill:#ff3300;fill-opacity:1;font-family:FreeSans;-inkscape-font-specification:FreeSans">Olot</tspan><tspan
          id="tspan3639"
          sodipodi:role="line"
-         x="680.26385"
+         x="338.26385"
          y="-135.67006"
          style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:185.00000238%;writing-mode:lr-tb;text-anchor:start;fill:#ff3300;fill-opacity:1;font-family:FreeSans;-inkscape-font-specification:FreeSans">Molins de Rei</tspan><tspan
          id="tspan3641"
          sodipodi:role="line"
-         x="680.26385"
+         x="338.26385"
          y="-109.77006"
          style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:185.00000238%;writing-mode:lr-tb;text-anchor:start;fill:#ff3300;fill-opacity:1;font-family:FreeSans;-inkscape-font-specification:FreeSans">Palamós</tspan><tspan
          id="tspan3651"
          sodipodi:role="line"
-         x="680.26385"
+         x="338.26385"
          y="-83.870056"
          style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:185.00000238%;writing-mode:lr-tb;text-anchor:start;fill:#ff3300;fill-opacity:1;font-family:FreeSans;-inkscape-font-specification:FreeSans" /><tspan
          id="tspan3653"
          sodipodi:role="line"
-         x="680.26385"
+         x="338.26385"
          y="-57.970055"
          style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:185.00000238%;writing-mode:lr-tb;text-anchor:start;fill:#ff3300;fill-opacity:1;font-family:FreeSans;-inkscape-font-specification:FreeSans" /></text>
     <g
        id="g4446"
-       transform="matrix(1,0,0,0.8533221,643.8177,-136.63312)"
+       transform="matrix(1,0,0,0.8533221,301.8177,-136.63312)"
        style="display:inline"
        inkscape:export-filename="/media/PITICLI/coses/Guifi-webdev/Proposta 1/img/zona-1.png"
        inkscape:export-xdpi="90"
@@ -4252,7 +4131,7 @@
        x="809.99994"
        style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#666666;fill-opacity:1;stroke:none;font-family:FreeSans;-inkscape-font-specification:FreeSans"
        xml:space="preserve"
-       inkscape:export-filename="/media/PITICLI/coses/Guifi-webdev/Proposta 1/img/banner.png"
+       inkscape:export-filename="/media/PITICLI/coses/Guifi-webdev/jperals/img/capsa-banner.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90"><tspan
          y="-877.04688"
@@ -4345,7 +4224,7 @@
      id="tspan4640">Treballs de manteniment i millora de Super Node</tspan></tspan> La Comissió Europea, a través de la Vice-Presidenta, la Sra. Neelie Kroes, va fer una...</tspan></text>
     <g
        style="display:inline"
-       transform="matrix(1,0,0,0.8533221,223.8177,-116.63312)"
+       transform="matrix(1,0,0,0.8533221,715.8177,-178.63312)"
        id="g4477"
        inkscape:export-filename="/media/PITICLI/coses/Guifi-webdev/Proposta 1/img/zona-1.png"
        inkscape:export-xdpi="90"
@@ -4446,7 +4325,7 @@
     </g>
     <g
        id="g4514"
-       transform="matrix(0.30695168,0,0,0.30695168,619.95499,25.235496)"
+       transform="matrix(0.30695168,0,0,0.30695168,277.95499,25.235496)"
        inkscape:export-filename="/media/PITICLI/coses/Guifi-webdev/Proposta 1/img/zona-1.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90">
@@ -4500,26 +4379,128 @@
          d="m 912.07371,-357.62283 -68.59475,0"
          id="path3719" />
     </g>
-    <g
-       transform="matrix(0.30695168,0,0,0.30695168,143.36502,-11.534057)"
-       id="g3721"
+    <rect
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
        inkscape:export-filename="/media/PITICLI/coses/Guifi-webdev/Proposta 1/img/zona-1.png"
+       y="-154.83374"
+       x="607.21576"
+       height="89.674103"
+       width="313"
+       id="rect7109"
+       style="fill:#ececec;fill-opacity:1;stroke:none" />
+    <text
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/media/PITICLI/coses/Guifi-webdev/Proposta 1/img/zona-1.png"
+       xml:space="preserve"
+       style="font-size:25.4831295px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#323232;fill-opacity:1;stroke:none;font-family:DejaVu Sans;-inkscape-font-specification:Andika Basic Italic"
+       x="610.21576"
+       y="-129.92267"
+       id="text7105"><tspan
+         sodipodi:role="line"
+         id="tspan7107"
+         x="610.21576"
+         y="-129.92267"
+         style="font-size:22.68000031px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#323232;fill-opacity:1;font-family:FreeSans;-inkscape-font-specification:FreeSans">Fundació Guifi.net</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:FreeSans;-inkscape-font-specification:FreeSans"
+       x="572"
+       y="781.97046"
+       id="text7111"
+       transform="translate(50.000003,-917.54755)"><tspan
+         sodipodi:role="line"
+         id="tspan7113"
+         x="572"
+         y="781.97046" /></text>
+    <text
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/media/PITICLI/coses/Guifi-webdev/Proposta 1/img/zona-2.png"
+       id="text7115"
+       y="-103.37006"
+       x="892.32483"
+       style="font-size:22.48370361px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:end;text-anchor:end;fill:#ff3300;fill-opacity:1;stroke:none;font-family:DejaVu Sans;-inkscape-font-specification:Andika Basic Italic"
+       xml:space="preserve"><tspan
+         style="font-size:14px;font-style:oblique;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:end;text-anchor:end;fill:#ff3300;fill-opacity:1;font-family:FreeSans;-inkscape-font-specification:FreeSans Oblique"
+         id="tspan7117"
+         y="-103.37006"
+         x="892.32483"
+         sodipodi:role="line">Què és?</tspan></text>
+    <g
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/media/PITICLI/coses/Guifi-webdev/Proposta 1/img/zona-2.png"
+       transform="matrix(0.5,0,0,0.5,755.60295,77.04875)"
+       id="g7119">
+      <g
+         id="g7121"
+         transform="matrix(-0.79045778,0,0,0.79045778,472.5929,121.84957)"
+         style="opacity:0.98999999;stroke:#ff3300;stroke-width:3.79526901;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none">
+        <path
+           id="path7123"
+           d="m 208.34898,-603.09928 -11.92697,-17.03854 11.35902,-17.03854"
+           style="fill:none;stroke:#ff3300;stroke-width:3.79526901;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+      </g>
+      <path
+         id="path7125"
+         d="m 317.3296,-368.34319 -29.53713,0"
+         style="fill:none;stroke:#ff3300;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-size:22.48370361px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:end;text-anchor:end;fill:#ff3300;fill-opacity:1;stroke:none;font-family:DejaVu Sans;-inkscape-font-specification:Andika Basic Italic"
+       x="892.32483"
+       y="-79.370064"
+       id="text7127"
+       inkscape:export-filename="/media/PITICLI/coses/Guifi-webdev/Proposta 1/img/zona-2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         x="892.32483"
+         y="-79.370064"
+         id="tspan7129"
+         style="font-size:14px;font-style:oblique;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:end;text-anchor:end;fill:#ff3300;fill-opacity:1;font-family:FreeSans;-inkscape-font-specification:FreeSans Oblique">Col·laboreu amb la Fundació</tspan></text>
+    <g
+       id="g7131"
+       transform="matrix(0.5,0,0,0.5,755.60295,101.04875)"
+       inkscape:export-filename="/media/PITICLI/coses/Guifi-webdev/Proposta 1/img/zona-2.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90">
       <g
-         style="opacity:0.98999999;stroke:#ff3300;stroke-width:6.15497398;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-         transform="matrix(-1.1372916,0,0,1.1372916,1136.4021,347.65474)"
-         id="g3723">
+         style="opacity:0.98999999;stroke:#ff3300;stroke-width:3.79526901;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         transform="matrix(-0.79045778,0,0,0.79045778,472.5929,121.84957)"
+         id="g7133">
         <path
-           style="fill:none;stroke:#ff3300;stroke-width:6.15497398;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+           style="fill:none;stroke:#ff3300;stroke-width:3.79526901;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
            d="m 208.34898,-603.09928 -11.92697,-17.03854 11.35902,-17.03854"
-           id="path3725" />
+           id="path7135" />
       </g>
       <path
-         sodipodi:nodetypes="cc"
-         style="fill:none;stroke:#ff3300;stroke-width:3.99361229;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-         d="m 912.07371,-357.62283 -68.59475,0"
-         id="path3727" />
+         style="fill:none;stroke:#ff3300;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         d="m 317.3296,-368.34319 -29.53713,0"
+         id="path7137" />
+    </g>
+    <g
+       id="g7139"
+       transform="matrix(0.5,0,0,0.5,755.60295,9.04875)"
+       inkscape:export-filename="/media/PITICLI/coses/Guifi-webdev/Proposta 1/img/zona-2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <g
+         style="opacity:0.98999999;stroke:#ff3300;stroke-width:3.79526901;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         transform="matrix(-0.79045778,0,0,0.79045778,472.5929,121.84957)"
+         id="g7141">
+        <path
+           style="fill:none;stroke:#ff3300;stroke-width:3.79526901;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+           d="m 208.34898,-603.09928 -11.92697,-17.03854 11.35902,-17.03854"
+           id="path7143" />
+      </g>
+      <path
+         style="fill:none;stroke:#ff3300;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         d="m 317.3296,-368.34319 -29.53713,0"
+         id="path7145" />
     </g>
   </g>
 </svg>
