@@ -32,6 +32,18 @@ body {
     padding:0 21px;
 }
 
+.capsa {
+    border-top:1px solid #BBB;
+    border-right:1px solid #888;
+    border-bottom:1px solid #888;
+    border-left:1px solid #BBB;
+    box-shadow:5px 6px 20px #5F5F5F;
+    -webkit-box-shadow:5px 6px 20px #5F5F5F;
+    -moz-box-shadow:5px 6px 20px #5F5F5F;
+    filter:progid:DXImageTransform.Microsoft.dropShadow(color=#5F5F5F,offX=5,offY=6,positive=true);
+    position: relative;
+}
+
 /* els 3 botons */
 
 #botons {
@@ -40,21 +52,12 @@ body {
 
 #botons .boto {
     float:left;
-    position:relative;
     width:274px;
     height:170px;
-    border-top:1px solid #BBB;
-    border-right:1px solid #888;
-    border-bottom:1px solid #888;
-    border-left:1px solid #BBB;
     margin:0;
     padding:0;
-    background:#FFF url(../img/tiles/botons-bg.png) repeat-x bottom left;
-    box-shadow:5px 6px 20px #5F5F5F;
-    -webkit-box-shadow:5px 6px 20px #5F5F5F;
-    -moz-box-shadow:5px 6px 20px #5F5F5F;
-    filter:progid:DXImageTransform.Microsoft.dropShadow(color=#5F5F5F,offX=5,offY=6,positive=true);
     z-index:5;
+    background:#FFF url(../img/tiles/botons-bg.png) repeat-x bottom left;
 }
 
 #botons .boto:hover {
@@ -113,11 +116,6 @@ a:hover .text-boto {
 #patrocinadors {
     padding:15px 22px;
     background:#FFF;
-    box-shadow:7px 7px 8px #818181;
-    -webkit-box-shadow:7px 7px 8px #818181;
-    -moz-box-shadow:7px 7px 8px #818181;
-    filter:progid:DXImageTransform.Microsoft.dropShadow(color=#818181,offX=7,offY=7,positive=true);
-    position:relative;
     z-index:20;
 }
 
