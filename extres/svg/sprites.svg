@@ -15,7 +15,7 @@
    id="svg4588"
    version="1.1"
    inkscape:version="0.47 r22583"
-   sodipodi:docname="Nou document 4">
+   sodipodi:docname="sprites.svg">
   <defs
      id="defs4590">
     <inkscape:perspective
@@ -133,6 +133,171 @@
        y1="52.362183"
        x2="140"
        y2="52.362183" />
+    <inkscape:perspective
+       id="perspective4378"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient6050"
+       id="linearGradient6000"
+       gradientUnits="userSpaceOnUse"
+       x1="209.34549"
+       y1="-314.95593"
+       x2="209.34549"
+       y2="-448.38693" />
+    <linearGradient
+       id="linearGradient6050">
+      <stop
+         style="stop-color:#cacaca;stop-opacity:1;"
+         offset="0"
+         id="stop6052" />
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1;"
+         offset="1"
+         id="stop6054" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4186"
+       id="linearGradient6002"
+       gradientUnits="userSpaceOnUse"
+       x1="209.34549"
+       y1="-314.95593"
+       x2="209.34549"
+       y2="-448.38693" />
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient4186">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop4188" />
+      <stop
+         style="stop-color:#000000;stop-opacity:0;"
+         offset="1"
+         id="stop4190" />
+    </linearGradient>
+    <linearGradient
+       gradientTransform="matrix(0.00363104,0,0,0.83114047,98.739858,1314.1349)"
+       y2="-448.38693"
+       x2="209.34549"
+       y1="-314.95593"
+       x1="209.34549"
+       gradientUnits="userSpaceOnUse"
+       id="linearGradient4391"
+       xlink:href="#linearGradient6050"
+       inkscape:collect="always" />
+    <inkscape:perspective
+       id="perspective5421"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <filter
+       color-interpolation-filters="sRGB"
+       inkscape:collect="always"
+       id="filter5894">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="0.69763997"
+         id="feGaussianBlur5896" />
+    </filter>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient5716"
+       id="linearGradient4444"
+       gradientUnits="userSpaceOnUse"
+       x1="112.12776"
+       y1="14.445171"
+       x2="112.12776"
+       y2="17.632534" />
+    <linearGradient
+       id="linearGradient5716">
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1;"
+         offset="0"
+         id="stop5718" />
+      <stop
+         style="stop-color:#d9d9d9;stop-opacity:1;"
+         offset="1"
+         id="stop5720" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient6050-5"
+       id="linearGradient5076"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.0021679,0,0,0.82818272,-0.79932744,-56.784945)"
+       x1="209.34549"
+       y1="-314.95593"
+       x2="209.34549"
+       y2="-448.38693" />
+    <linearGradient
+       id="linearGradient6050-5">
+      <stop
+         style="stop-color:#cacaca;stop-opacity:1;"
+         offset="0"
+         id="stop6052-2" />
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1;"
+         offset="1"
+         id="stop6054-0" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient6050-5"
+       id="linearGradient5435"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.0021679,0,0,0.82818272,-0.79932744,-56.784945)"
+       x1="209.34549"
+       y1="-314.95593"
+       x2="209.34549"
+       y2="-448.38693" />
+    <linearGradient
+       id="linearGradient5437">
+      <stop
+         style="stop-color:#cacaca;stop-opacity:1;"
+         offset="0"
+         id="stop5439" />
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1;"
+         offset="1"
+         id="stop5441" />
+    </linearGradient>
+    <linearGradient
+       y2="-448.38693"
+       x2="209.34549"
+       y1="-314.95593"
+       x1="209.34549"
+       gradientTransform="matrix(1.0021679,0,0,0.82818272,-0.79932744,-56.784945)"
+       gradientUnits="userSpaceOnUse"
+       id="linearGradient5464"
+       xlink:href="#linearGradient6050-5"
+       inkscape:collect="always" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient6050-5"
+       id="linearGradient5553"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.0021679,0,0,0.82818272,-416.4059,964.36742)"
+       x1="209.34549"
+       y1="-314.95593"
+       x2="209.34549"
+       y2="-448.38693" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient5716"
+       id="linearGradient5555"
+       gradientUnits="userSpaceOnUse"
+       x1="112.12776"
+       y1="14.445171"
+       x2="112.12776"
+       y2="17.632534" />
   </defs>
   <sodipodi:namedview
      id="base"
@@ -141,16 +306,16 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="2.8"
-     inkscape:cx="112.91607"
-     inkscape:cy="7.6190476"
+     inkscape:zoom="0.98994949"
+     inkscape:cx="120.05807"
+     inkscape:cy="51.716484"
      inkscape:document-units="px"
      inkscape:current-layer="capa1"
      showgrid="false"
      inkscape:window-width="892"
-     inkscape:window-height="439"
-     inkscape:window-x="0"
-     inkscape:window-y="22"
+     inkscape:window-height="446"
+     inkscape:window-x="44"
+     inkscape:window-y="119"
      inkscape:window-maximized="0" />
   <metadata
      id="metadata4593">
@@ -168,27 +333,91 @@
      inkscape:label="Capa 1"
      inkscape:groupmode="layer"
      id="capa1">
-    <a
-       id="a3822"
-       style="fill:url(#linearGradient4657);fill-opacity:1"
-       transform="matrix(-0.35714285,0,0,4.950134e-4,49.999999,1051.8313)"
-       inkscape:export-filename="/media/PITICLI/coses/Guifi-webdev/Proposta 1/img/tiles/shadow-bg.png"
+    <g
+       id="g5032">
+      <a
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/media/PITICLI/coses/Guifi-webdev/Proposta 1/img/tiles/shadow-bg.png"
+         transform="matrix(-0.35714285,0,0,4.950134e-4,49.999999,1051.8313)"
+         style="fill:url(#linearGradient4657);fill-opacity:1"
+         id="a3822">
+        <path
+           id="rect3818"
+           d="m 0.00128786,-947.63782 139.99871214,0 0,2020.14732 -139.99871214,0 0,-2020.14732 z"
+           style="fill:url(#linearGradient4655);stroke:none" />
+      </a>
+      <use
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/media/PITICLI/coses/Guifi-webdev/Proposta 1/img/tiles/shadow-bg.png"
+         height="1283.4358"
+         width="1024"
+         transform="matrix(-0.98000903,0,0,0.99993151,99,0.07205233)"
+         id="use5827"
+         xlink:href="#a3822"
+         y="0"
+         x="0" />
+    </g>
+    <rect
+       y="880.36212"
+       x="99"
+       height="172"
+       width="1"
+       id="rect3873"
+       style="fill:url(#linearGradient4391);fill-opacity:1;stroke:none"
+       rx="0"
+       ry="0"
+       inkscape:export-filename="/media/PITICLI/coses/Guifi-webdev/jperals/img/tiles/botons-bg.png"
        inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90">
-      <path
-         style="fill:url(#linearGradient4655);stroke:none"
-         d="m 0.00128786,-947.63782 139.99871214,0 0,2020.14732 -139.99871214,0 0,-2020.14732 z"
-         id="rect3818" />
-    </a>
-    <use
+       inkscape:export-ydpi="90" />
+    <rect
+       y="535.6134"
        x="0"
-       y="0"
-       xlink:href="#a3822"
-       id="use5827"
-       transform="matrix(-0.98000903,0,0,0.99993151,99,0.07205233)"
-       width="1024"
-       height="1283.4358"
-       inkscape:export-filename="/media/PITICLI/coses/Guifi-webdev/Proposta 1/img/tiles/shadow-bg.png"
+       height="171.38791"
+       width="276"
+       id="rect3873-2"
+       style="fill:none;stroke:none"
+       rx="0"
+       ry="0"
+       inkscape:export-filename="/media/PITICLI/coses/Guifi-webdev/jperals/img/botons.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       sodipodi:type="inkscape:offset"
+       inkscape:radius="0.70710677"
+       inkscape:original="M 265.25 -434.5625 C 258.04365 -434.63563 250.19336 -433.40942 241.40625 -431.0625 C 242.78689 -426.16823 245.33783 -417.54177 247.34375 -412.28125 C 262.93089 -416.6477 270.81516 -417.62855 282.90625 -404.375 C 288.72675 -397.9949 291.18958 -385.01359 284.03125 -378.53125 C 273.83532 -369.89198 267.02759 -375.95768 254.6875 -372.40625 C 241.70302 -368.66936 230.99004 -362.2339 217.90625 -347.40625 L 234.6875 -333.46875 C 242.35506 -342.21953 239.76247 -339.39486 249.125 -346.46875 C 261.41591 -356.35495 270.47192 -349.22021 284.90625 -353.4375 C 298.18708 -356.71208 308.2812 -367.20773 310.96875 -380.625 C 314.26251 -396.00001 307.92062 -412.17871 297.3125 -422.4375 C 287.47838 -430.68906 277.26058 -434.44061 265.25 -434.5625 z M 213.15625 -337.09375 C 208.69099 -337.04095 204.27085 -335.25214 201.40625 -331.53125 C 200.7078 -330.7156 200.09527 -329.83622 199.5625 -328.90625 C 197.38127 -325.39295 197.08947 -321.34664 198.125 -317.625 L 229.21875 -317.625 C 230.04695 -320.71072 229.93788 -324.07137 228.5625 -327.15625 C 226.36159 -333.59973 219.6824 -337.17089 213.15625 -337.09375 z "
+       style="font-size:92.52355957px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#c8c8c8;fill-opacity:1;stroke:none;font-family:Andika Basic;-inkscape-font-specification:Andika Basic"
+       id="path5900"
+       d="m 265.25,-435.28125 c -7.29176,-0.074 -15.20203,1.17308 -24.03125,3.53125 a 0.70717748,0.70717748 0 0 0 -0.5,0.875 c 1.38349,4.90436 3.94225,13.52925 5.96875,18.84375 a 0.70717748,0.70717748 0 0 0 0.84375,0.4375 c 7.77699,-2.17858 13.54035,-3.49165 18.78125,-2.65625 5.2409,0.8354 10.07438,3.77992 16.0625,10.34375 2.78279,3.05033 4.81591,7.77132 5.25,12.46875 0.43409,4.69743 -0.68732,9.31855 -4.0625,12.375 -4.97647,4.21669 -8.9537,4.77395 -13.40625,4.78125 -4.45255,0.007 -9.35017,-0.62737 -15.65625,1.1875 -13.09249,3.76798 -23.98167,10.32362 -37.125,25.21875 a 0.70717748,0.70717748 0 0 0 0.0937,1 L 234.25,-332.9375 A 0.70717748,0.70717748 0 0 0 235.21875,-333 c 7.66992,-8.75347 4.95908,-5.81563 14.34375,-12.90625 6.01463,-4.83787 11.11111,-5.48928 16.65625,-5.46875 5.53729,0.0205 11.49961,0.7637 18.84375,-1.375 0.01,-0.002 0.0215,0.002 0.0312,0 13.51678,-3.34445 23.81491,-14.06083 26.5625,-27.71875 0.002,-0.01 -0.002,-0.0213 0,-0.0312 3.33911,-15.64694 -3.0768,-32.02511 -13.84375,-42.4375 a 0.70717748,0.70717748 0 0 0 -0.0312,-0.0312 c -9.93803,-8.33875 -20.37752,-12.18916 -32.53125,-12.3125 z m -52.09375,97.46875 c -4.63429,0.0548 -9.26828,1.9243 -12.28125,5.8125 -0.009,0.012 -0.022,0.0192 -0.0312,0.0312 -0.70775,0.83083 -1.3338,1.74779 -1.875,2.6875 -0.007,0.0125 -0.0241,0.0188 -0.0312,0.0312 -2.27418,3.68761 -2.57668,7.94298 -1.5,11.8125 a 0.70717748,0.70717748 0 0 0 0.6875,0.53125 l 31.09375,0 a 0.70717748,0.70717748 0 0 0 0.6875,-0.53125 c 0.86555,-3.22488 0.75999,-6.75337 -0.6875,-10 l -0.0312,0 c -2.3396,-6.73917 -9.26402,-10.45499 -16.03125,-10.375 z"
+       transform="translate(-69.705543,1023.4073)"
+       inkscape:export-filename="/media/PITICLI/coses/Guifi-webdev/Proposta 1/img/botons.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#c8c8c8;fill-opacity:1;stroke:none"
+       d="m 521.74059,571.31381 -40.37715,47.9375 -63.2697,-13.875 35.93135,50.96875 -32.4477,50.65625 5.54066,0 55.90427,-14.6875 13.50328,14.6875 30.45705,0 1.3271,-29.5625 44.69024,-17.78125 0,-11.34375 -45.71874,-16.03125 -5.54066,-60.96875 z"
+       id="path5987"
+       inkscape:export-filename="/media/PITICLI/coses/Guifi-webdev/Proposta 1/img/botons.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       ry="0"
+       rx="0"
+       style="fill:none;stroke:none"
+       id="rect5710"
+       width="276"
+       height="171.38847"
+       x="591"
+       y="535.61279"
+       inkscape:export-filename="/media/PITICLI/coses/Guifi-webdev/jperals/img/botons.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#c8c8c8;fill-opacity:1;stroke:none"
+       d="m 834.2807,576.25288 -14.81723,9.09783 -53.54953,64.72231 c -13.84265,-14.30854 -25.11938,-26.0763 -30.06011,-31.25717 l 30.06011,-28.57039 -7.60814,-8.00716 c -15.88904,15.10307 -45.06354,9.23084 -45.06354,9.23084 l -36.60416,34.76862 24.3673,25.6708 21.99974,-20.88246 c 5.03815,5.30724 17.21445,18.16168 31.28378,33.06611 l -17.2114,20.82925 -9.23084,-7.66133 -4.44251,5.32037 0.39902,10.16191 c -6.93638,1.90892 -15.21383,6.91499 -23.38303,14.25859 l 40.0358,0 c 0.0151,-0.15761 0.0406,-0.32299 0.0532,-0.47883 l 10.05551,-1.48971 4.3893,-5.34697 -9.15104,-7.60813 16.33354,-19.71197 c 10.26775,10.89285 21.40685,22.76669 32.50747,34.63561 l 27.16049,0 c -16.25455,-16.21737 -33.27095,-33.57566 -48.01634,-48.7612 l 54.34758,-65.65338 6.14503,-16.33354 z M 676.74451,771.69672 c 2.57441,0.90384 5.72868,0.87057 9.25744,0 l -9.25744,0 z"
+       id="path5032"
+       inkscape:export-filename="/media/PITICLI/coses/Guifi-webdev/Proposta 1/img/botons.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90" />
   </g>
