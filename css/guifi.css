@@ -216,6 +216,7 @@ a.padrins,a.padrins:visited,a.padrins:active {
 #screen {
     height:60px;
     padding:0;
+    margin-left:13px;
 }
 
 #screen li {
