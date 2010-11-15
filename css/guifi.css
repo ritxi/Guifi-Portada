@@ -6,6 +6,26 @@ body {
     text-align:center;
 }
 
+a {
+    color:#FF3300;
+}
+
+a:hover {
+    text-decoration:underline;
+}
+
+a.vincle {
+    font-style:italic;
+    font-size:14px;
+    float:right;
+    clear:right;
+    text-decoration:none;
+}
+
+.gran {
+    font-size:150%;
+}
+
 #pagina {
     width:959px;
     margin:0 auto;
@@ -185,6 +205,50 @@ a:hover .text-boto {
 }
 
 /* final els 3 botons */
+
+/* capsa central */
+
+#central {
+    padding:15px 10px 10px 20px;
+}
+
+.quadre {
+    background:transparent;
+}
+
+.quadre:hover {
+    background:#DADADA;
+}
+
+#projectes {
+    width:480px;
+}
+
+#projectes ul li {
+    list-style-type:none;
+    display:inline-block;
+    margin:5px 0 0 15px;
+    width:203px;
+}    
+
+#dades,#fundacio {
+    position:absolute;
+    right:15px;
+}
+
+#dades {
+    top:15px;
+}
+
+#fundacio {
+    top: 150px;
+}
+
+#actualitat p {
+    font-size:12px;
+}
+
+/* final capsa central */
 
 #patrocinadors {
     padding:15px 22px;
