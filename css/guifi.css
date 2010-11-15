@@ -22,6 +22,10 @@ a.vincle {
     text-decoration:none;
 }
 
+a.vincle:hover {
+    text-decoration:underline;
+}
+
 .gran {
     font-size:150%;
 }
