@@ -16,10 +16,10 @@ a:hover {
 }
 
 a.vincle {
+    display:block;
+    text-align:right;
     font-style:italic;
     font-size:14px;
-    float:right;
-    clear:right;
     text-decoration:none;
     padding-right:16px;
 }
@@ -233,7 +233,15 @@ a:hover .text-boto {
 }
 
 .quadre h3 {
-    margin-top:0;
+    margin:0 0 10px;
+    font-size:21px;
+    font-weight:normal;
+    color:#333;
+}
+
+#dades h3 {
+    color:#000;
+    font-size:26px;
 }
 
 #projectes {
@@ -263,12 +271,42 @@ a:hover .text-boto {
     height:98px;
 }
 
+#dades p {
+    margin:5px 0 7px;
+    font-size:14px;
+}
+
+.meta {
+    color:#555;
+}
+
+.info {
+    color:#222;
+}
+
 #actualitat p {
+    margin:5px 0;
     font-size:12px;
+}
+
+#actualitat a:hover .data-noticia,
+#actualitat a:hover .titular,
+#actualitat a:hover .resum
+ {
+    text-decoration:underline;
+}
+
+.data-noticia {
+    color:#666;
 }
 
 .titular {
     color:#F30;
+    font-size:14px;
+}
+
+.resum {
+    color:#222;
 }
 
 /* final capsa central */
