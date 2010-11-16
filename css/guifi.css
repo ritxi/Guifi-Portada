@@ -7,7 +7,8 @@ body {
 }
 
 a {
-    color:#FF3300;
+    color:#F30;
+    text-decoration:none;
 }
 
 a:hover {
@@ -20,10 +21,12 @@ a.vincle {
     float:right;
     clear:right;
     text-decoration:none;
+    padding-right:20px;
 }
 
 a.vincle:hover {
     text-decoration:underline;
+    background:url(../img/fletxadreta.gif) no-repeat right center;
 }
 
 .gran {
@@ -208,22 +211,25 @@ a:hover .text-boto {
     display:block;
 }
 
-/* final els 3 botons */
+/* final dels 3 botons */
 
 /* capsa central */
 
 #central {
-    padding:0 10px 10px 20px;
+    padding:0;
 }
 
 .quadre {
-    margin-top:15px;
-    background:transparent;
-    padding:0 0 7px 0;
+    margin:15px;
+    padding:5px;
 }
 
-.quadre:hover {
+.gris {
     background:#DADADA;
+}
+
+.blanc {
+    background:#FFF;
 }
 
 .quadre h3 {
@@ -239,11 +245,13 @@ a:hover .text-boto {
     display:inline-block;
     margin:5px 0 0 15px;
     width:203px;
+    font-size:15px;
 }    
 
 #dades,#fundacio {
     position:absolute;
-    right:15px;
+    right:0;
+    width:327px;
 }
 
 #dades {
@@ -251,11 +259,16 @@ a:hover .text-boto {
 }
 
 #fundacio {
-    top: 150px;
+    top:124px;
+    height:98px;
 }
 
 #actualitat p {
     font-size:12px;
+}
+
+.titular {
+    color:#F30;
 }
 
 /* final capsa central */
