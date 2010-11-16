@@ -178,7 +178,7 @@ a.vincle:hover {
     background-position: -594px bottom;
 }
 
-.titol-boto {
+.capsa.boto h3 {
     margin:17px 0 23px 23px;
     font-size:28px;
     font-style:italic;
@@ -225,14 +225,14 @@ a:hover .text-boto {
 }
 
 .gris {
-    background:#DADADA;
+    background:#E5E5E5;
 }
 
 .blanc {
     background:#FFF;
 }
 
-.quadre h3 {
+.capsa h3 {
     margin:0 0 10px;
     font-size:21px;
     font-weight:normal;
@@ -240,7 +240,7 @@ a:hover .text-boto {
 }
 
 #dades h3 {
-    color:#000;
+    margin-bottom:6px;
     font-size:26px;
 }
 
@@ -272,8 +272,8 @@ a:hover .text-boto {
 }
 
 #dades p {
-    margin:5px 0 7px;
-    font-size:14px;
+    margin:6px 0 7px;
+    font-size:12px;
 }
 
 .meta {
@@ -310,7 +310,7 @@ a:hover .text-boto {
 }
 
 /* final capsa central */
-
+ 
 #patrocinadors {
     padding:15px 22px;
     background:#FFF;
@@ -319,22 +319,6 @@ a:hover .text-boto {
 
 #patrocinadors p {
     margin:5px 0;
-}
-
-.titolpatrocinadors {
-    color:#4D4D4D;
-    font-size:22px;
-}
-
-a.padrins,a.padrins:visited,a.padrins:active {
-    color:#FF5328;
-    display:block;
-    width:100%;
-    text-align:right;
-    font-size:14px;
-    text-decoration:none;
-    font-weight:700;
-    font-style:italic;
 }
 
 /* Slideshow patrocinadors */
