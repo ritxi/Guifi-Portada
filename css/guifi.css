@@ -21,12 +21,12 @@ a.vincle {
     float:right;
     clear:right;
     text-decoration:none;
-    padding-right:20px;
+    padding-right:16px;
 }
 
 a.vincle:hover {
     text-decoration:underline;
-    background:url(../img/fletxadreta.gif) no-repeat right center;
+    background:url(../img/fletxa-petita.png) no-repeat right center;
 }
 
 .gran {
