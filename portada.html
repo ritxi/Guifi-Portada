@@ -7,6 +7,7 @@
         <link rel="stylesheet" type="text/css" href="css/barra_guifi.css" />
         <link rel="stylesheet" type="text/css" href="css/guifi.css" />
         <script type="text/javascript" src="./jquery/jquery.js"></script>
+        <!--<script type="text/javascript" src="./jquery/jquery144.js"></script>-->
 	<script type="text/javascript" src="./jquery/jquery.scrollTo-min.js"></script>
 	<script type="text/javascript" src="./jquery/jquery.scrollShow.js"></script>	
 	<script type="text/javascript">
@@ -30,87 +31,181 @@
 		});
 	    });
 	</script>
-    </head>
+    <script type="text/javascript">
+	  // When the document loads do everything inside here ...
+	  $(document).ready(function(){
+		// When a link is clicked
+		$("a.tab").click(function () {
+			// switch all tabs off
+			$(".active").removeClass("active");
+			// switch this tab on
+			$(this).addClass("active");
+			// slide all elements with the class 'content' up
+			//$(".content").slideUp();
+			$(".content").hide();
+			// Now figure out what the 'title' attribute value is and find the element with that id.  Then slide that down.
+			var content_show = $(this).attr("title");
+			//$("#"+content_show).slideDown();
+			$("#"+content_show).fadeIn();
+			return false;
+		});
+	  });
+  </script>
+    <script type="text/javascript">
+		$(document).ready(function() {
+            $(".signin").click(function(e) {          
+				e.preventDefault();
+                $("fieldset#signin_menu").toggle();
+				$(".signin").toggleClass("menu-open");
+            });
+			
+			$("fieldset#signin_menu").mouseup(function() {
+				return false
+			});
+			$(document).mouseup(function(e) {
+				if($(e.target).parent("a.signin").length==0) {
+					$(".signin").removeClass("menu-open");
+					$("fieldset#signin_menu").hide();
+				}
+			});	
+			
+        });
+function MM_jumpIdioma(targ,selObj,restore){ //v3.0
+  eval(targ+".location='"+selObj.options[selObj.selectedIndex].value+"'");
+  if (restore) selObj.selectedIndex=0;
+}
+    </script>
+</head>
     <body>
         <div id="gnome-sites">
-            <ul>
+            <ul id="topnav" class="topnav">
                 <li class="home"><a href="http://guifi.net/" title="Inici">Inici</a></li>
                 <li><a href="#" title="Suport">Suport</a></li>
                 <li><a href="http://fundacio.guifi.net" title="Fundació">Fundació</a></li>
                 <li><a href="http://planet.guifi.net/" title="Notícies">Notícies</a></li>
                 <li><a href="#" title="Contacte">Contacte</a></li>
-                <li><a href="#" title="Entra">Entra</a></li>
+                <li><a href="#" class="signin" title="Entra"><span>Entra / Registra't&nbsp;</span></a></li>
             </ul>
+            <fieldset id="signin_menu">
+				<form method="post" id="signin" action="https://twitter.com/sessions">
+      				<label for="username">Nom d'usuari</label>
+      				<input id="username" name="username" value="" title="nom usuari" tabindex="4" type="text">
+      </p>
+      <p>
+      				<label for="password">Contrasenya</label>
+        			<input id="password" name="password" value="" title="Contrasenya" tabindex="5" type="password">
+      </p>
+      				<p class="remember">
+        				<input id="signin_submit" value="Entra" tabindex="6" type="submit">
+        				<input id="remember" name="remember_me" value="1" tabindex="7" type="checkbox">
+        				<label for="remember">Recorda'm</label>
+      				</p>
+      				<p class="forgot"><a href="http://guifi.net/user/register" id="resend_password_link" class="vincle">Registrat</a> </p>
+                    <p class="forgot"><a href="http://guifi.net/user/password" id="resend_password_link" class="vincle">Demanar nova contrasenya</a> </p>
+				</form>
+			</fieldset>
         </div>
-        <div id="pagina">
-            <div id="principal" style="overflow: hidden">
-                <div id="banner">
+        
+    <div id="pagina">
+      <div id="principal" style="overflow: hidden">
+          <div id="banner">
                     <a href="http://guifi.net" title="Guifi.net" id="logo"><h1><img src="img/guifi-logo.png" alt="Guifi.net" title="Guifi.net" /></h1></a>
                     <a href="http://guifi.net" title="Guifi.net" id="slogan"><h2>Xarxa Oberta, Lliure i Neutral<br />Internet per a Tothom</h2></a>
-                    <img src="img/capsa-banner.png" style="position:absolute;top:3px;right:3px" />
-                </div>
+                    <div id="eines">
+                        <form action="/" id="search-theme-form" method="post">
+								<input type="text" value="Cercar" id="edit-search-theme-form-1" name="search_theme_form" onfocus="if (this.value == 'Cercar') {this.value = '';}" onblur="if (this.value == '')  {this.value = 'Cercar';}">
+                                <button type="submit" id="searchguifi">Cercar</button>
+						</form>
+                        <form name="llengua" id="llengua">
+                        	<label for="jumpIdioma">Llengua</label>
+							<select name="jumpIdioma" id="jumpIdioma" onchange="MM_jumpIdioma('parent',this,0)">
+								<option value="http://elemento1.html">Català</option>
+								<option value="http://elemento2.html">Castellano</option>
+								<option value="http://elemento2.html">English</option>
+								<option value="http://elemento2.html">Galego</option>
+								<option value="http://elemento2.html">Euskara</option>
+								<option value="http://elemento2.html">Français</option>
+              				</select>
+            			</form>
+            		</div>
+				</div>
                 <div id="banner-slider">
-                    <img src="img/banner.png" style="margin-top:-89px" />
+                    <img src="img/banner.jpg" width="910" height="454" style="margin-top:-89px" />
                 </div>
                 <div id="cos">
             	    <div id="botons">
                         <a class="capsa boto" id="boto1" href="#">
                             <div class="dins">
-                  	        <h3 class="titol-boto">Què és Guifi.net?</h3>
-                                <p class="text-boto">Una xarxa que<br />uneix persones</p>
+                  	        <h3 class="titol-boto">Què és Guifi.net? <img src="img/arrow2.gif" width="10" height="10" border="0" /></h3>
+                                <p class="text-boto">Una xarxa de<br />telecomunicacions que<br />uneix persones</p>
                                 <div class="fletxa"></div>
                             </div>
                         </a>
                         <a class="capsa boto" id="boto2" href="#">
                             <div class="dins">
-                  	        <h3 class="titol-boto">Experiències</h3>
-                                <p class="text-boto">Particulars, empreses,<br />administracions,<br />universitats...</p>
+                  	        <h3 class="titol-boto">Experiències <img src="img/arrow2.gif" width="10" height="10" border="0" /></h3>
+                                <p class="text-boto">Com utilitzen guifi.net<br />els particulars, empreses,<br />administracions i universitats...</p>
                                 <div class="fletxa"></div>
                             </div>
                         </a>
                         <a class="capsa boto" id="boto3" href="#">
                             <div class="dins">
-                  	        <h3 class="titol-boto">Participa-hi!</h3>
+                  	        <h3 class="titol-boto">Participa-hi! <img src="img/arrow2.gif" width="10" height="10" border="0" /></h3>
                                 <p class="text-boto">Descobreix com pots<br />formar part de Guifi</p>
                                 <div class="fletxa"></div>
                             </div>
                         </a>
               	    </div>
                     <div class="capsa" id="central">
-                        <div class="quadre gris" id="projectes">
-                            <h3>Projectes oberts</h3>
-                            <ul>
-                                <li><a href="#">La Coruña</li></a>
-                                <li><a href="#">Vic</li></a>
-                                <li><a href="#">Pozuelo de Alarcón</li></a>
-                                <li><a href="#">Sant Pere Pescador</li></a>
-                                <li><a href="#">Torretes de Palafrugell</li></a>
-                                <li><a href="#">Santurde de Rioja</li></a>
-                                <li><a href="#">Els Pins / L'Escala</li></a>
-                                <li><a href="#">Olot</li></a>
-                                <li><a href="#">Molins de Rei</li></a>
-                                <li><a href="#">Palamós</li></a>
-                                <li><a href="#">Terrassa</li></a>
-                                <li><a href="#">Fonollosa</li></a>
+                    	<div class="tabbed_area capsa">
+                        	<ul class="tabs">
+                            	<li><a href="#" title="content_1" class="tab active" >Guifi.net Avui</a></li>
+                                <li><a href="#" title="content_2" class="tab">Actualitat a guifi.net</a></li>
+                                <li><a href="#" title="content_3" class="tab">Nou als forums</a></li>
                             </ul>
-                            <a class="vincle" href="#">Més...</a>
+                            <div id="content_1" class="content">
+                            	<h3><span class="gran">11.177</span> nodes operatius.</h3>
+                                <p>Avui s'han afegit 5 nodes nous</p>
+                                <p>Màxim de nodes afegits en un dia: 25</p>
+                                <!--<div id="nodesoperatius">
+                                	<div style="width:67%;background-color:red;"><span>11.251<br />Operatius</span></div>
+                                    <div style="width:2%;"><span>303<br />En proves</span></div>
+                                    <div style="width:1%;"><span>225<br />En construcció</span></div>
+                                    <div style="width:30%;"><span>4955<br />Projectats</span></div>
+                                </div>-->
+                                <p>Ara hi ha connectats: 35 usuaris registrats i 21 convidats</p>
+                                <p><a class="vincle" href="http://guifi.net/guifi_zones">Llistat i mapes</a></p>
+                            </div>
+                            <div id="content_2" class="content">
+                            	<ul>
+                                	<li><span class="data-noticia">31/10/2010 </span><span class="titular"><a title="Després de moltes intervencions, per fi ja tenim la connectivitat fins a la costa del Baix Empordà! ...podeu seguir tot el procés a la web del mateix node, amb les fotos i videos de com ha anat tot el procés, fins al moment actual. El dissabte dia 20 de novembre, varem fer els últims retocs de configuracions, i ajustaments de les antenes. També el servei de  […]" href="http://guifi.net/node/34482" class="rsswidget">Els pobles de la costa del Baix Empordà per fi ja deixen de ser "illes"!  ...gràcies al supernode del Santuari dels Àngels.</a></span></li>
+                                    <li><span class="data-noticia">15/10/2010 </span><span class="titular"><a title="Ja fa un any, el 25 d'octubre de 2009, es realitzava la primera connexió entre l'Ajuntament y la Ermita de Santurde, els dos primers nodes de Guifi.net a La Rioja. Des d'aquell moment el creixement de la xarxa ha estat imparable, les xifres parlen soles: Nodes i enlaços de la xarxa a 25 d'octobre de 2010. 50 nodes operatius Altres 14 node […]" href="http://guifi.net/node/34403" class="rsswidget">Un any de Guifi.net a La Rioja</a></span></li>
+                                    <li><a title="Ja tenim llista de correu aper València. Ha costat un poc, però ja tenim el domini valencia.guifi.net, i la llista de correu. Si esteu interessats, podeu subscriure-us en la següent adreça: http://valencia.guifi.net/cgi-bin/mailman/listinfo/usuarios Al subscriure-us a la llista, qualsevol correu arribarà a tots els usuaris. […]" href="http://guifi.net/node/34400" class="rsswidget">Llista de correu per a usuaris de guifi.net a València</a></li>
+                                    <li><a title="Inici: 18/11/ 11:00 Final: 18/11/ 22:00 Fus horari:Europa/Andorra Inici: 18/11/ 11:00 Final: 18/11/ 22:00 Fus horari:Europa/Andorra Avui presentem a la exposició Mediateca Expandida SummerLAB_Showcase de Gijón el primer prototip de guifimòbil connectat a varis nodes que permet fer trucades de veu i dades a altres guifimòbils en moviment sense perdre la conne […]" href="http://guifi.net/node/34377" class="rsswidget">Telefonia mòbil lliure sobre Guifi.net</a></li>
+                                    <li><a title="Avui finalment hem presentat a Olot el Projecte Enfibra't a l'Ajutament d'Olot. De què es tracta el projecte? Doncs de fer dos trams de fibra al nucli antic d'Olot que aniran des de l'Ateneu217 fins el Karme i de l'Ateneu217 fins l'ACAS. Pensem que és un projecte molt ambiciós i que després es podrà anar estenent per tot el […]" href="http://guifi.net/node/34361" class="rsswidget">Enfibra't a Olot!</a></li>
+                            	</ul>
+                            </div>
+                            <div id="content_3" class="content">
+                            	<ul>
+                                	<li><a title="Estem interessats en fer arribar guifi a la vall del ter-brugent (sant feliu de pallerols, les planes, amer, La Cellera, angles). Hi ha algu que ens pugui assesorar com fer-ho. Som gent dels pobles esmentats anteriorment. […]" href="http://guifi.net/node/34499" class="rsswidget">guifi zona ter-brugent</a></li>
+                                    <li><a title="&nbsp;M'interesaria saber si hi ha algun Proxy dins la xarxa guifi que permeti fer ftp a l'exterior i si es aixi quim i com Gràcies […]" href="http://guifi.net/node/34497" class="rsswidget">proxys</a></li><li><a title="algu podria donar-me un cop d ull al node 34454 , el unsolclick me dona error &nbsp; moltes gracies. […]" href="http://guifi.net/node/34462" class="rsswidget">node 34454</a></li>
+                                    <li><a title="...almenys per ara. Al anar a fer un node per a Gandesa no surt la Terra Alta com a comarca. He llegit al company de la ribera que fa poc ho ha consultat al forum. Suposo que faig be de demanar aqui que s'inclogui. Graciesss &nbsp; Joan Pallares […]" href="http://guifi.net/node/34459" class="rsswidget">La Terra alta no existeix...</a></li>
+                                    <li><a title="&nbsp; Que us sembla aquesta antena per crear un node a 5km de distancia?&nbsp; &nbsp; Tinc visio directe. http://www.ciudadwireless.com/ubiquiti_networks_ubiquiti_nb-5g25_nanobridge_series-_5ghz-_25dbi_dual-p-4267.html Ho amb aquesta ja n'hi&nbsp;&nbsp;hauria prou?&nbsp; http://www.ciudadwireless.com/ubiquiti_networks_ubiquiti_nb-5g22_nanobridge_series-_5ghz-_22dbi_dual-p-3786.html &nbsp; &nbsp;G […]" href="http://guifi.net/node/34458" class="rsswidget">Que us sembla?</a></li>
+                            	</ul>
+                            </div>
                         </div>
-                        <div class="quadre blanc" id="dades">
-                            <h3><span class="gran">11.177</span> nodes operatius.</h3>
-                            <p><span class="meta">Darrer node afegit:</span> <span class="info">Lorem Ipsum de Més Enllà</span></p>
-                            <a class="vincle" href="#">Estadístiques i mapes...</a>
-                        </div>
-                        <div class="quadre gris" id="fundacio">
+                        <div class="quadre gris capsa" id="fundacio">
                             <h3>Fundació Guifi.net</h3>
-                            <a class="vincle" href="#">Què és?</a>
-                            <a class="vincle" href="#">Col·labora amb la Fundació</a>
+                            <a class="vincle" href="http://fundacio.guifi.net/">Què és?</a>
+                            <a class="vincle" href="#">Fer una donació a la Fundació</a>
                         </div>
-                        <div class="quadre gris" id="actualitat">
-                            <h3>Actualitat</h3>
-                            <a href="#"><p><span class="data-noticia">31/10/2010 </span><span class="titular">Guifi.net a les Jornades de programari lliure de Terres de l'Ebre</span><span class="resum"> La UOC, conjuntament amb la Xarxa punt TIC de les Terres de...</span></p></a>
-                            <a href="#"><p><span class="data-noticia">31/10/2010 </span><span class="titular">Guifi.net a les Jornades de programari lliure de Terres de l'Ebre</span><span class="resum"> La UOC, conjuntament amb la Xarxa punt TIC de les Terres de...</span></p></a>
-                            <a href="#"><p><span class="data-noticia">31/10/2010 </span><span class="titular">Guifi.net a les Jornades de programari lliure de Terres de l'Ebre</span><span class="resum"> La UOC, conjuntament amb la Xarxa punt TIC de les Terres de...</span></p></a>
-                            <a href="#"><p><span class="data-noticia">31/10/2010 </span><span class="titular">Guifi.net a les Jornades de programari lliure de Terres de l'Ebre</span><span class="resum"> La UOC, conjuntament amb la Xarxa punt TIC de les Terres de...</span></p></a>
+                        <div class="quadre blanc" id="apadrinaments">
+                        	<h3>Apadrinaments</h3>
+                            <p>El creixement i manteniment de la xarxa es realitza gràcies als apadrinaments</p>
+                            <div class="graph">
+                            	<strong class="bar" style="width: 74%;">74%</strong>
+                            </div>
+                            <a class="vincle" href="http://guifi.net/budgets/3671/list/Open">Apadrina un node!</a>
                         </div>
                     </div>
                     <div class="capsa" id="patrocinadors">
@@ -131,27 +226,29 @@
 			    </li>
 			    <li><a id="right" href="#"><img src="./img/dreta.gif" width="13" height="31" alt="següent" border="0"/></a></li>
 			</ul>
-                        <p><a href="#" class="vincle">Suports i padrins...</a></p>
+                        <p><a href="#" class="vincle">Suports i padrins</a></p>
                     </div>
                 </div>
                 <div id="peu" class="quatre columnes" style="margin-top: -40px; z-index: 10">
-      		    <ul class="columna">
+	    	  <ul class="columna">
                         <li class="titolpeu">Informació</li>
+                        <li><a href="http://guifi.net/connectar_a_guifi" title="Notícies">Connectar a guifi.net</a></li>
                         <li><a href="http://planet.guifi.net" title="Notícies">Notícies</a></li>
-                        <li><a href="#" title="Documentació">Documentació</a></li>
-                        <li><a href="#" title="Guifi TV">Guifi TV</a></li>
+        <li><a href="http://guifi.net/CADocs" title="Documentació">Documentació</a></li>
+                        <li><a href="http://guifi.net/premsa" title="Documentació">Premsa</a></li>
+            <li><a href="#" title="Guifi TV">Guifi TV</a></li>
                     </ul>
                     <ul class="columna">
                         <li class="titolpeu">Eines de gestió</li>
-                        <li><a href="#" title="Mapes">Mapes</a></li>
+                        <li><a href="http://guifi.net/maps" title="Mapes">Mapes</a></li>
                         <li><a href="#" title="Eines">Eines</a></li>
-                        <li><a href="#" title="Grups locals">Grups locals</a></li>
+                        <li><a href="http://guifi.net/node/25507" title="Grups locals">Grups locals</a></li>
                     </ul>
                     <ul class="columna">
                         <li class="titolpeu">Suport</li>
-                        <li><a href="#" title="Fòrums">Fòrums</a></li>
-                        <li><a href="#" title="Llistes de correu">Llistes de correu</a></li>
-                        <li><a href="#" title="Xat">Xat</a></li>
+                        <li><a href="http://guifi.net/forum" title="Fòrums">Fòrums</a></li>
+                        <li><a href="http://guifi.net/llistes" title="Llistes de correu">Llistes de correu</a></li>
+                        <li><a href="http://guifi.net/xat" title="Xat">Xat</a></li>
                     </ul>
                     <ul class="columna">
                         <li class="titolpeu">Reconeixements</li>
@@ -160,10 +257,10 @@
                         <li><a href="#" title="Premi Juventud">Premi Juventud</a></li>
                         <li><a href="#" title="Operador de Telecomunicacions">Operador de Telecomunicacions</a></li>
                         <li><a href="#" title="Cooperació al Desenvolupament">Cooperació al Desenvolupament</a></li>
-                        <li><a href="#" title="Avís Legal">Avís Legal</a></li>
+                        <li><a href="http://guifi.net/node/415" title="Avís Legal">Avís Legal</a></li>
                     </ul>
                 </div>
             </div>
-        </div>
+       </div>
     </body>
 </html>

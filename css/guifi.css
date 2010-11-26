@@ -21,12 +21,13 @@ a.vincle {
     font-style:italic;
     font-size:14px;
     text-decoration:none;
+    background:url(../img/arrow2.gif) no-repeat right center;
     padding-right:16px;
 }
 
 a.vincle:hover {
     text-decoration:underline;
-    background:url(../img/fletxa-petita.png) no-repeat right center;
+    /*background:url(../img/fletxa-petita.png) no-repeat right center;*/
 }
 
 .gran {
@@ -129,10 +130,64 @@ a.vincle:hover {
     z-index:1;
 }
 
+/* inici caixa cerca i idioma */
+#eines{
+	position:absolute;top:3px;right:3px;
+	width:155px;
+}
+#search-theme-form, #llengua{
+	margin:0px;
+}
+input {
+	float:left;
+}
+#edit-search-theme-form-1{
+	background-color:#ffffff;
+	color:#666666;
+	margin:0;
+	border: none;
+	border: 1px solid;
+	border-color: #3F3F3F #FFFFFF #929292 #3F3F3F;
+	border-right:none;
+	height:15px;
+	width: 125px;
+}
+#searchguifi{
+	margin:0;
+	border: none;
+	border: 1px solid;
+	border-color: #3F3F3F #929292 #929292 #FFFFFF;
+	border-left:none;
+	height:19px;
+	width:25px;
+	background: #ffffff url('../img/cercar21.gif') no-repeat 0px 0px;
+	cursor:pointer;
+	text-indent: -9999px;
+}
+#searchguifi:hover{
+	background: #ffffff url('../img/cercar21.gif') no-repeat 0px -19px;
+}
+
+#llengua select,#llengua label{
+	font-size:11px;
+	color: #666666;
+}
+#llengua{
+	margin-top:5px;
+	text-align:right;
+}
+#llengua select{
+	width:90px;
+	/*float:right;*/
+}
+/* fi caixa cerca i idioma */
+
+
 /* els 3 botons */
 
 #botons {
-    margin: -27px 0 20px;
+	margin: -27px auto 20px auto;
+    /*margin: -27px 0 20px;*/
     height:172px;
 }
 
@@ -152,6 +207,8 @@ a.vincle:hover {
 
 #botons #boto2 {
     margin:0 20px;
+    .margin:0 12px;
+    /*margin:0 20px; aixi dona problemes a ie7 */
 }
 
 #botons a {
@@ -216,8 +273,108 @@ a:hover .text-boto {
 /* capsa central */
 
 #central {
-    padding:0;
+    padding:15px;
+	min-height:210px;
 }
+
+/* caixa central amb pestanyes */
+.tabbed_area {
+	width: 580px;
+	/*border:1px solid #494e52;*/
+	background-color:#E5E5E5;  
+	padding:8px;
+	margin:0px;
+	/*margin:15px;*/
+}  
+ul.tabs {
+	margin:5px 0 7px 0;
+	padding:0 0 0 5px;
+}
+ul.tabs li {
+	list-style:none;
+	display:inline;
+}
+ul.tabs li a {
+	background-color:#464c54;
+	/*color:#ffebb5;*/
+	color: #FFFFFF;
+	padding:8px 14px 8px 14px;
+	text-decoration:none;
+	font-size:9px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	text-transform:uppercase;
+	border:1px solid #464c54;
+	-moz-border-radius-topright:4px;
+	-moz-border-radius-topleft:4px;
+	-webkit-border-top-right-radius:4px;
+	-webkit-border-top-left-radius:4px;
+	-border-top-right-radius:4px;
+	-border-top-left-radius:4px;
+}
+ul.tabs li a:hover {
+	background-color:#2f343a;
+	border-color:#2f343a;
+}
+ul.tabs li a.active {
+	background-color:#ffffff;
+	/*color:#282e32;*/
+	color:#FF3300;
+	border:1px solid #464c54;
+	border-bottom: 1px solid #ffffff;
+}
+.content {
+	background:#fff url(../img/tiles/botons-bg.png) repeat-x bottom;
+	padding:10px;
+	border:1px solid #464c54;
+}
+#content_2, #content_3 { display:none; }
+.content ul{
+	list-style-image: url(../img/arrow2.gif);
+}
+.content li, .content p{
+	font-size:12px;
+	margin:3px 0 3px 0;
+}
+
+.content a.rsswidget{
+	color:#333;
+}
+
+/* estils de barra nodes operatius comentada al codi de la plana */
+#nodesoperatius{
+	position: relative; /* IE is dumb */
+        display: block;                 
+        float: left;     
+        width: 540px; 
+        height: 20px; 
+        margin: 0 0 15px 0; 
+        background:#fff url(../img/bgnodes_operatius.gif) repeat-y top;
+		padding:0;
+}
+#nodesoperatius div{
+	position: relative;
+	float:left; 
+	height: 20px; 
+	width: 75%; 
+	text-align:right;
+}
+#nodesoperatius div span{
+	position: absolute; 
+	right: -5px; 
+	top: -2px; 
+	display: block; 
+	background: url(../img/marcador.gif) no-repeat right top; 
+	height: 50px; 
+	width: 100%; 
+	text-align: center; 
+	overflow: hidden;
+	font-size:12px;
+	line-height:24px;
+}
+/* fi estils de barra nodes operatius comentada al codi de la plana */
+
+/* fi caixa central amb pestanyes */
 
 .quadre {
     margin:15px;
@@ -233,67 +390,46 @@ a:hover .text-boto {
 }
 
 .capsa h3 {
-    margin:0 0 10px;
+    margin:0 0 5px;
     font-size:21px;
     font-weight:normal;
     color:#333;
 }
 
-#dades h3 {
-    margin-bottom:6px;
-    font-size:26px;
-}
-
-#projectes {
-    width:480px;
-}
-
-#projectes ul li {
-    list-style-type:none;
-    display:inline-block;
-    margin:5px 0 0 15px;
-    width:203px;
-    font-size:15px;
-}    
-
-#dades,#fundacio {
+#apadrinaments,#fundacio {
     position:absolute;
     right:0;
-    width:327px;
-}
-
-#dades {
-    top:0px;
+    width:210px;
 }
 
 #fundacio {
-    top:120px;
-    height:92px;
+    top:0px;
+    height:75px;
 }
-
-#dades p {
-    margin:6px 0 7px;
-    font-size:12px;
+#apadrinaments {
+    top:105px;
 }
-
-.meta {
-    color:#555;
+#apadrinaments p{
+	font-size:11px;
+	color:#6F6F6F;
+	margin: 0pt 0pt 5px;	
 }
-
-.info {
-    color:#222;
+.graph {
+	position: relative; /* IE is dumb */
+    width: 200px; 
+    border: 1px solid #FF8A00; 
+    padding: 1px;
+	margin-bottom:3px;
 }
-
-#actualitat p {
-    margin:5px 0;
-    font-size:12px;
-}
-
-#actualitat a:hover .data-noticia,
-#actualitat a:hover .titular,
-#actualitat a:hover .resum
- {
-    text-decoration:underline;
+.graph .bar { 
+	display: block;
+	position: relative;
+	background: #FF8A00; 
+	text-align: center; 
+	color: #333; 
+	height: 10px; 
+	line-height: 10px;
+	font-size:11px;            
 }
 
 .data-noticia {
@@ -302,11 +438,7 @@ a:hover .text-boto {
 
 .titular {
     color:#F30;
-    font-size:14px;
-}
-
-.resum {
-    color:#222;
+    font-size:12px;
 }
 
 /* final capsa central */
@@ -376,6 +508,7 @@ a:hover .text-boto {
     margin-top:0;
     margin-bottom:0;
 }
+#peu .columna {.display:inline;}
 
 .quatre.columnes .columna {
     width:22%;

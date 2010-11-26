@@ -31,7 +31,8 @@
 }
 
 #gnome-sites li a:hover {
-	text-decoration: underline;
+	/*text-decoration: underline;*/
+	color:#666666;
 }
 
 #gnome-sites .home {
@@ -48,3 +49,112 @@
 	padding-left: 27px;
 }
 
+/* estil del sliding login */
+
+/*#topnav a.signin {
+    background:#88bbd4;
+    padding:4px 6px 6px;
+    text-decoration:none;
+    font-weight:bold;
+    color:#fff;
+    -webkit-border-radius:4px;
+    -moz-border-radius:4px;
+    border-radius:4px;
+    *background:transparent url("images/signin-nav-bg-ie.png") no-repeat 0 0;
+    *padding:4px 12px 6px;
+}
+#topnav a.signin:hover {
+    background:#59B;
+    *background:transparent url("images/signin-nav-bg-hover-ie.png") no-repeat 0 0;
+    *padding:4px 12px 6px;
+}*/
+#topnav a.signin, #topnav a.signin:hover {
+    *background-position:0 3px!important;
+}
+
+a.signin {
+    position:relative;
+    margin-left:3px;
+}
+a.signin span {
+    background-image:url("../img/toggle_down_light.png");
+    background-repeat:no-repeat;
+    background-position:100% 50%;
+    padding:4px 16px 6px 0;
+}
+
+/*caja*/
+#signin_menu {
+	border-top:1px solid #BBB;
+    border-right:1px solid #888;
+    border-bottom:1px solid #888;
+    border-left:1px solid #BBB;
+    box-shadow:5px 6px 20px #5F5F5F;
+    -webkit-box-shadow:5px 6px 20px #5F5F5F;
+    -moz-box-shadow:5px 6px 20px #5F5F5F;
+    filter:progid:DXImageTransform.Microsoft.dropShadow(color=#5F5F5F,offX=5,offY=6,positive=true);
+    display:none;
+	background-color:#ffffff;
+	position:absolute;
+	width:210px;
+	z-index:100;
+	border:1px transparent;
+	text-align:left;
+	padding:12px;
+	top: 25px; 
+	right: 15px; 
+	margin-top:5px;
+	margin-right: 0px;
+	*margin-right: -1px;
+	color:#789;
+	font-size:11px;
+}
+
+#signin_menu input[type=text], #signin_menu input[type=password] {
+	display:block;
+	/*-moz-border-radius:4px;
+	-webkit-border-radius:4px;
+	border:1px solid #ACE;*/
+	font-size:11px;
+	margin:0 0 5px;
+	padding:3px;
+	width:203px;
+}
+#signin_menu p {
+	margin:0;
+}
+/*#signin_menu a {
+	color:#6AC;
+}*/
+#signin_menu label {
+	font-weight:normal;
+}
+#signin_menu p.remember {
+	padding:10px 0;
+}
+#signin_menu p.forgot {
+	clear:both;
+	margin:5px 0;
+}
+#signin_menu p a {
+	/*color:#F73300!important;*/
+	padding-right:16px;
+}
+/*#signin_menu p a:hover {
+	background:url(../img/fletxa-petita.png) no-repeat right center;
+} */  
+#signin_submit {
+	background:#666;
+	border:1px solid #666;
+	color:#fff;
+	padding:3px 10px 3px;
+	font-size:11px;
+	margin:0 5px 0 0;
+}
+
+#signin_submit:hover, #signin_submit:focus {
+	background-position:0 -5px;
+	cursor:pointer;
+}
+
+/* fi estils sliding login */
