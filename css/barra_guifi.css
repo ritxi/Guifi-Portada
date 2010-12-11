@@ -31,8 +31,7 @@
 }
 
 #gnome-sites li a:hover {
-	/*text-decoration: underline;*/
-	color:#666666;
+	text-decoration: underline
 }
 
 #gnome-sites .home {
