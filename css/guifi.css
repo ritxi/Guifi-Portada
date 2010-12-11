@@ -52,6 +52,7 @@ a.vincle:hover {
     padding:0 49px 0 0;
     background-image:url(../img/tiles/shadow-bg.png);
     background-position:top right;
+    position:relative
 }
 
 #principal,#banner {
@@ -81,7 +82,7 @@ a.vincle:hover {
 /* bàner */
 
 #banner {
-    position:relative;
+    position:absolute;
     height:89px;
     z-index: 5;
     background:transparent url(../img/tiles/banner-bg.png) repeat left top;
@@ -128,6 +129,31 @@ a.vincle:hover {
 
 #banner-slider {
     z-index:1;
+    position:relative;
+    width:910px;
+    height:454px
+}
+
+#banner-text {
+    width:870px;
+    padding:0 20px 27px;
+    position:absolute;
+    bottom:0;
+    background-color:rgba(255,255,255,0.55)
+}
+
+#banner-slider h3 {
+    font-size:28px;
+    font-weight:400;
+    margin-top:13px;
+    margin-bottom:0
+}
+
+#banner-slider p {
+    font-size:16px;
+    margin-top:0;
+    color:#323232;
+    text-align:center
 }
 
 /* inici caixa cerca i idioma */
