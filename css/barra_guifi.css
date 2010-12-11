@@ -74,12 +74,10 @@
 a.signin {
     position:relative;
     margin-left:3px;
-}
-a.signin span {
     background-image:url("../img/toggle_down_light.png");
     background-repeat:no-repeat;
     background-position:100% 50%;
-    padding:4px 16px 6px 0;
+    padding:4px 19px 6px 0;
 }
 
 /*caja*/
