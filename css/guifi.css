@@ -480,18 +480,18 @@ ul.tabs li a.active {
 }
 
 /* Slideshow patrocinadors */
-#screen {
+#slider1 {
     height:60px;
     padding:0;
     margin-left:13px;
 }
 
-#screen li {
+#slider1 li {
     float:left;
     list-style:none;
 }
 
-#screen .jq-ss-crop {
+#slider1 .jq-ss-crop {
     margin:5px;
     text-align:center;
 /*border:1px solid #FFFFCC;*/
@@ -503,20 +503,20 @@ ul.tabs li a.active {
     display:block;
 }
 
-#view {
+#slider1 .view {
     margin:0 20px;
     width:730px;
     height:60px;
     overflow:hidden;
 }
 
-#images {
+#slider1 .images {
     width:3818px!important;
     width:3822px;
     padding:0;
 }
 
-#images li img {
+#slider1 .images li img {
     border:0;
 }
 
