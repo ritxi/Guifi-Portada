@@ -17,6 +17,16 @@
                     var s=1.70158;
                     return c*((t=t/d-1)*t*((s+1)*t + s) + 1) + b;
                 };
+/*                $('#slider0').scrollShow({
+                    view:'.view',
+                    content:'.images',
+                    easing:'backout',
+                    wrappers:'link,crop',
+                    navigators:'a[id]',
+                    navigationMode:'sr',
+                    circular:true,
+                    start:0
+                });*/
                 $('#slider1').scrollShow({
                     view:'.view',
                     content:'.images',
@@ -208,7 +218,7 @@
                     <div class="capsa" id="patrocinadors">
                         <h3>Hi donen suport</h3>
                         <ul class="slider" id="slider1">
-                            <li><a id="left" href="#"><img src="./img/esquerra.gif" width="13" height="31" alt="anterior" border="0"/></a></li>
+                            <li><a class="left" id="left1" href="#"><img src="./img/esquerra.gif" width="13" height="31" alt="anterior" border="0"/></a></li>
                             <li class="view">
                                 <ul class="images">
                                     <li><img src="img/patrocinadors/generalitat.jpg" width="126" height="34" alt="Generalitat de Catalunya" /></li>
@@ -221,7 +231,7 @@
                                     <li><img src="img/patrocinadors/consell1.png" width="97" height="27" /></li>
                                 </ul>
                             </li>
-                            <li><a id="right" href="#"><img src="./img/dreta.gif" width="13" height="31" alt="següent" border="0"/></a></li>
+                            <li><a class="right" id="right1" href="#"><img src="./img/dreta.gif" width="13" height="31" alt="següent" border="0"/></a></li>
                         </ul>
                         <p><a href="#" class="vincle">Suports i padrins</a></p>
                     </div>

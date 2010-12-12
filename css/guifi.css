@@ -497,8 +497,8 @@ ul.tabs li a.active {
     float:left;
 }
 
-#left,#right {
-    margin-top:15px;
+.left,.right {
+    margin-top:5px;
     display:block;
 }
 
