@@ -497,9 +497,19 @@ ul.tabs li a.active {
     float:left;
 }
 
-.left,.right {
+.slider-arrow {
+    width:12px;
+    height:29px;
     margin-top:5px;
     display:block;
+}
+
+.left.slider-arrow {
+    background-image:url(../img/esquerra.png)
+}
+
+.right.slider-arrow {
+    background-image:url(../img/dreta.png)
 }
 
 #slider1 .view {
