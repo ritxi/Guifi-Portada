@@ -52,7 +52,8 @@ a.vincle:hover {
     padding:0 49px 0 0;
     background-image:url(../img/tiles/shadow-bg.png);
     background-position:top right;
-    position:relative
+    position:relative;
+    overflow:hidden
 }
 
 #principal,#banner {
@@ -127,6 +128,11 @@ a.vincle:hover {
 
 /* final bàner */
 
+.texts-slider > li, #slider1 li {
+    float:left;
+    list-style:none;
+}
+
 #banner-slider {
     z-index:1;
     position:relative;
@@ -134,11 +140,42 @@ a.vincle:hover {
     height:454px
 }
 
-#banner-text {
-    width:870px;
-    padding:0 20px 27px;
+#banner-slider img {
+    position:absolute;
+    top:0;
+    left:0
+}
+
+ul.images {
+    margin-top:0
+}
+
+#banner-slider img.no-primera {
+    display:none
+}
+
+#banner-slider ul.texts li {
+    display:inline-block;
+    margin:0;
+    padding:0 40px;
+    width:827px;
+    list-style-type:none;
+    .float:left
+}
+
+#slider0 {
     position:absolute;
     bottom:0;
+    margin:0;
+    padding:0;
+    width:910px;
+    overflow:hidden
+}
+
+#slider0 .texts {
+    width:2730px;
+    margin:0;
+    padding:0 0 27px;
     background-color:rgba(255,255,255,0.55)
 }
 
@@ -485,11 +522,6 @@ ul.tabs li a.active {
     margin-left:13px;
 }
 
-#slider1 li {
-    float:left;
-    list-style:none;
-}
-
 #slider1 .jq-ss-crop {
     margin:5px;
     text-align:center;
@@ -502,6 +534,19 @@ ul.tabs li a.active {
     height:29px;
     margin-top:5px;
     display:block;
+}
+
+#slider0 .slider-arrow {
+    position:absolute;
+    bottom:63px
+}
+
+#slider0 .left.slider-arrow {
+    left:10px
+}
+
+#slider0 .right.slider-arrow {
+    right:10px
 }
 
 .left.slider-arrow {

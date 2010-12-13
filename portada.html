@@ -9,6 +9,7 @@
         <script type="text/javascript" src="js/jquery.js"></script>
         <script type="text/javascript" src="js/jquery.scrollTo-min.js"></script>
         <script type="text/javascript" src="js/jquery.scrollShow.js"></script>  
+        <script type="text/javascript" src="js/jquery.multiSlide.js"></script>
         <script type="text/javascript">
             jQuery(function( $ ){
             //borrowed from jQuery easing plugin
@@ -17,16 +18,15 @@
                     var s=1.70158;
                     return c*((t=t/d-1)*t*((s+1)*t + s) + 1) + b;
                 };
-/*                $('#slider0').scrollShow({
-                    view:'.view',
-                    content:'.images',
-                    easing:'backout',
-                    wrappers:'link,crop',
-                    navigators:'a[id]',
-                    navigationMode:'sr',
-                    circular:true,
-                    start:0
-                });*/
+            });
+        </script>
+        <script type="text/javascript">
+            // When the document loads do everything inside here ...
+            $(document).ready(function(){
+                $('#banner-slider').multiSlide({
+                    images:'.images',
+                    navigators:'.left,.right'
+                });
                 $('#slider1').scrollShow({
                     view:'.view',
                     content:'.images',
@@ -37,11 +37,6 @@
                     circular:true,
                     start:0
                 });
-            });
-        </script>
-        <script type="text/javascript">
-            // When the document loads do everything inside here ...
-            $(document).ready(function(){
                 // When a link is clicked
                 $("a.tab").click(function () {
                     // switch all tabs off
@@ -107,7 +102,7 @@
             </fieldset>
         </div>
         <div id="pagina">
-            <div id="principal" style="overflow: hidden">
+            <div id="principal">
                 <div id="banner">
                     <a href="http://guifi.net" title="Guifi.net" id="logo"><h1><img src="img/guifi-logo.png" alt="Guifi.net" title="Guifi.net" /></h1></a>
                     <a href="http://guifi.net" title="Guifi.net" id="slogan"><h2>Xarxa Oberta, Lliure i Neutral<br />Internet per a Tothom</h2></a>
@@ -129,14 +124,32 @@
                         </form>
                     </div>
                 </div>
-                <div id="banner-slider">
-                    <img src="img/dsc07219_910x454.jpg" />
-                    <div id="banner-text">
-                        <a class="left slider-arrow" id="left0" href="#"></a>
-                        <h3>La xarxa que fem entre tots</h3>
-                        <p>Descobreix per què Guifi és alguna cosa més que una xarxa de telecomunicacions</p>
-                        <a class="right slider-arrow" id="right0" href="#"></a>
-                    </div>
+                <div class="slider" id="banner-slider">
+                    <ul class="images">
+                        <li><img class="primera" src="img/slider-910x454/dsc07219_910x454.jpg" /></li>
+                        <li><img class="no-primera" src="img/slider-910x454/20246_910x454.jpg" /></li>
+                        <li><img class="no-primera" src="img/slider-910x454/DSC08889_910x454.jpg" /></li>
+                    </ul>
+                    <ul class="texts-slider" id="slider0">
+                        <li><a class="left slider-arrow" id="left0" href="#"></a>
+                        <li class="view">
+                            <ul class="texts">
+                                <li>
+                                    <h3>La xarxa que fem entre tots</h3>
+                                    <p>Descobreix per què Guifi és alguna cosa més que una xarxa de telecomunicacions</p>
+                                </li>
+                                <li>
+                                    <h3>Guifi.net, un projecte per a tothom</h3>
+                                    <p>Particulars, empreses, adiminstracions... han fet la vida més fàcil gràcies a Guifi</p>
+                                </li>
+                                <li>
+                                    <h3>Tu també pots formar-ne part!</h3>
+                                    <p>Hi ha moltes maneres de fer créixer el projecte, tinguis coneixements tècnics o no</p>
+                                </li>
+                            </ul>
+                        </li>
+                        <li><a class="right slider-arrow" id="right0" href="#"></a>
+                    </ul>
                 </div>
                 <div id="cos">
                     <div id="botons">
