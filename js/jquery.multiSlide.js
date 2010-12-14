@@ -5,27 +5,30 @@ $.fn.multiSlide = function(settings){
             view:'.view',
             elements:'li',
             navigators:'.left,.right',
-            start:0
+            start:0,
+            duration:'slow'
             },settings);
-    var container = $(settings.texts);
-    var elements = container.find(settings.elements);
+    var container = $(settings.texts)[0];
+    var elements = $(container).find(settings.elements);
     var current = settings.start;
     var navigators = new Array();
-    var settings2 = new Array();
-    this.scrollTo(elements[current],settings);
+    navigators = settings.navigators.split(',');
+    function goTo(n) {
+        $(container).animate({marginLeft:(-910*n)+'-910px'},settings.duration);
+    }
     if(navigators) {
         if(navigators[0]) {
             this.find(navigators[0]).click(function(){
                 if(current <= 0) current = elements.length - 1;
                 else current--;
-                this.scrollTo(elements[current],settings2);
+                goTo(current);
             });
         }
         if(navigators[1]) {
             this.find(navigators[1]).click(function(){
                 if(current >= elements.length - 1) current = 0;
                 else current++;
-                this.scrollTo(elements[current],settings2);
+                goTo(current);
             });
         }
     }
