@@ -143,7 +143,8 @@ a.vincle:hover {
 #banner-slider img {
     position:absolute;
     top:0;
-    left:0
+    left:0;
+    z-index:3
 }
 
 ul.images {
@@ -151,7 +152,7 @@ ul.images {
 }
 
 #banner-slider img.no-primera {
-    display:none
+    z-index:1
 }
 
 #banner-slider ul.texts li {
@@ -169,7 +170,8 @@ ul.images {
     margin:0;
     padding:0;
     width:910px;
-    overflow:hidden
+    overflow:hidden;
+    z-index:4
 }
 
 #slider0 .texts {
