@@ -8,32 +8,6 @@
 	font-size: 70%;
 }
 
-#gnome-sites ul {
-	margin: 0;
-	padding: 0;
-}
-
-#gnome-sites li {
-	display: inline;
-	background: url(../img/tiles/sites-sp.png) 0 0 no-repeat;
-	padding-top: 10px;
-	padding-bottom: 8px;
-	margin-left: 0px;
-	margin-top: 0px;
-}
-
-#gnome-sites li a {
-	font-weight: bold;
-	color: #FFFFFF;
-	margin: 0 2ex;
-	text-decoration: none;
-	line-height: 30px;
-}
-
-#gnome-sites li a:hover {
-	text-decoration: underline
-}
-
 #gnome-sites .home {
 	float: left;
 	background: url(../img/tiles/sites-sp.png) 100% 0 no-repeat;
@@ -48,25 +22,62 @@
 	padding-left: 27px;
 }
 
-/* estil del sliding login */
-
-/*#topnav a.signin {
-    background:#88bbd4;
-    padding:4px 6px 6px;
-    text-decoration:none;
-    font-weight:bold;
-    color:#fff;
-    -webkit-border-radius:4px;
-    -moz-border-radius:4px;
-    border-radius:4px;
-    *background:transparent url("images/signin-nav-bg-ie.png") no-repeat 0 0;
-    *padding:4px 12px 6px;
+#gnome-sites ul {
+	margin: 0;
+	padding: 0;
 }
-#topnav a.signin:hover {
-    background:#59B;
-    *background:transparent url("images/signin-nav-bg-hover-ie.png") no-repeat 0 0;
-    *padding:4px 12px 6px;
-}*/
+
+#gnome-sites li {
+	display: inline;
+	position:relative; /* afegit per posicionar submenus */
+	background: url(../img/tiles/sites-sp.png) 0 0 no-repeat;
+	padding-top: 10px;
+	padding-bottom: 8px;
+	margin-left: 0px;
+	margin-top: 0px;
+	z-index:6; /* sense aixo es perd el submenu en navegar pel subnivell */
+}
+
+#gnome-sites li a {
+	font-weight: bold;
+	color: #FFFFFF;
+	margin: 0 2ex;
+	text-decoration: none;
+	line-height: 30px;
+}
+
+#gnome-sites li a:hover {
+	text-decoration: underline
+}
+
+#gnome-sites li ul.submenu{
+	position: absolute;
+	top: 30px;
+	left: 1px;
+	display: none;
+	background: #0E0E0F;
+	/*padding: 10px 0;*/
+	z-index:5;
+}
+
+#gnome-sites li:hover ul.submenu {
+	display: block;
+	background-color: #0E0E0F;
+}
+
+#gnome-sites li ul.submenu li {
+	background: #0E0E0F;
+	display:block;
+	text-align:left;
+	border-top: 1px dotted grey;
+	padding: 0;
+	width:140px;
+}
+
+#gnome-sites li ul.submenu li:first-child{
+	border-top: none;
+}
+
 #topnav a.signin, #topnav a.signin:hover {
     *background-position:0 3px!important;
 }
@@ -93,7 +104,7 @@ a.signin {
     display:none;
 	background-color:#ffffff;
 	position:absolute;
-	width:210px;
+	width:220px;
 	z-index:100;
 	border:1px transparent;
 	text-align:left;

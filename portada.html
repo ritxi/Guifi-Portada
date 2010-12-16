@@ -79,20 +79,26 @@
             <ul id="topnav" class="topnav">
                 <li class="home"><a href="http://guifi.net/" title="Inici">Inici</a></li>
                 <li><a href="http://wiki.guifi.net" title="Documentació">Documentació</a></li>
-                <li><a href="#" title="Suport">Suport</a></li>
+                <li><a href="#" title="Suport">Suport</a>
+                	<ul class="submenu">
+                    	<li><a href="http://guifi.net/forum" title="Fòrums">Fòrums</a></li>
+                        <li><a href="http://guifi.net/llistes" title="Llistes de correu">Llistes de correu</a></li>
+                        <li><a href="http://guifi.net/xat" title="Xat">Xat</a></li>
+                    </ul>
+                </li>
                 <li><a href="http://fundacio.guifi.net" title="Fundació">Fundació</a></li>
-                <li><a href="http://guifi.net/premsa" title="Notícies">Notícies</a></li>
-                <li><a href="#" title="Contacte">Contacte</a></li>
+                <li><a href="http://guifi.net/premsa" title="Premsa">Premsa</a></li>
+                <li><a href="http://guifi.net/grups" title="Contacte">Contacte</a></li>
                 <li><a href="#" class="signin" title="Entra"><span>Entra / Registra't</span></a></li>
             </ul>
             <fieldset id="signin_menu">
                 <form method="post" id="signin" action="https://twitter.com/sessions">
-                    <label for="username">Nom d'usuari</label>
-                    <input id="username" name="username" value="" title="nom usuari" tabindex="4" type="text" />
-                    <label for="password">Contrasenya</label>
-                    <input id="password" name="password" value="" title="Contrasenya" tabindex="5" type="password" />
+                    <label for="edit-name">Nom d'usuari</label><br />
+                    <input id="edit-name" name="name" value="" title="nom usuari" tabindex="4" type="text" />
+                    <label for="edit-pass">Contrasenya</label>
+                    <input id="edit-pass" name="pass" value="" title="Contrasenya" tabindex="5" type="password" />
                     <p class="remember">
-                        <input id="signin_submit" value="Entra" tabindex="6" type="submit" />
+                        <input id="edit-submit" value="Entra" tabindex="6" type="submit" name="op"/>
                         <input id="remember" name="remember_me" value="1" tabindex="7" type="checkbox" />
                         <label for="remember">Recorda'm</label>
                     </p>
@@ -179,23 +185,30 @@
                         <div class="tabbed_area capsa">
                             <ul class="tabs">
                                 <li><a href="#" title="content_1" class="tab active" >Guifi.net Avui</a></li>
-                                <li><a href="#" title="content_2" class="tab">Actualitat a guifi.net</a></li>
-                                <li><a href="#" title="content_3" class="tab">Nou als forums</a></li>
+                                <li><a href="#" title="content_2" class="tab">Serveis</a></li>
+                                <li><a href="#" title="content_3" class="tab">Actualitat a guifi.net</a></li>
+                                <li><a href="#" title="content_4" class="tab">Nou als forums</a></li>
                             </ul>
                             <div id="content_1" class="content">
                                 <h3><span class="gran">11.177</span> nodes operatius.</h3>
-                                <p>Avui s'han afegit 5 nodes nous</p>
-                                <p>Màxim de nodes afegits en un dia: 25</p>
-                                <!--<div id="nodesoperatius">
-                                    <div style="width:67%;background-color:red;"><span>11.251<br />Operatius</span></div>
-                                    <div style="width:2%;"><span>303<br />En proves</span></div>
-                                    <div style="width:1%;"><span>225<br />En construcció</span></div>
-                                    <div style="width:30%;"><span>4955<br />Projectats</span></div>
-                                </div>-->
-                                <p>Ara hi ha connectats: 35 usuaris registrats i 21 convidats</p>
-                                <p><a class="vincle" href="http://guifi.net/guifi_zones">Llistat i mapes</a></p>
+                                <p>totals</p>
+                                <p>quilòmetres d'enllaços totals</p>
+                                <p>nodes creats última setmana</p>
+                                <p>nodes passats a operatius l'última setmana</p>
+                                <p><a class="vincle" href="http://guifi.net/guifi/menu/stats/nodes">Més dades</a></p>
                             </div>
                             <div id="content_2" class="content">
+                                <ul>
+                                	<li>Nombre total de portes a Internet</li>
+                                    <li>VeuIP</li>
+                                    <li>Servidors d'arxius</li>
+                                    <li>Servidors de Jabber / videoconferència</li>
+                                    <li>servidors de webs</li>
+                                    <li>servidors de correu</li>
+                                </ul>
+                                <p><a class="vincle" href="http://guifi.net/node/3671/view/services">Tots els serveis</a></p>
+                            </div>
+                            <div id="content_3" class="content">
                                 <ul>
                                     <li><span class="data-noticia">31/10/2010 </span><span class="titular"><a title="Després de moltes intervencions, per fi ja tenim la connectivitat fins a la costa del Baix Empordà! ...podeu seguir tot el procés a la web del mateix node, amb les fotos i videos de com ha anat tot el procés, fins al moment actual. El dissabte dia 20 de novembre, varem fer els últims retocs de configuracions, i ajustaments de les antenes. També el servei de  […]" href="http://guifi.net/node/34482" class="rsswidget">Els pobles de la costa del Baix Empordà per fi ja deixen de ser "illes"!  ...gràcies al supernode del Santuari dels Àngels.</a></span></li>
                                     <li><span class="data-noticia">15/10/2010 </span><span class="titular"><a title="Ja fa un any, el 25 d'octubre de 2009, es realitzava la primera connexió entre l'Ajuntament y la Ermita de Santurde, els dos primers nodes de Guifi.net a La Rioja. Des d'aquell moment el creixement de la xarxa ha estat imparable, les xifres parlen soles: Nodes i enlaços de la xarxa a 25 d'octobre de 2010. 50 nodes operatius Altres 14 node […]" href="http://guifi.net/node/34403" class="rsswidget">Un any de Guifi.net a La Rioja</a></span></li>
@@ -204,7 +217,7 @@
                                     <li><a title="Avui finalment hem presentat a Olot el Projecte Enfibra't a l'Ajutament d'Olot. De què es tracta el projecte? Doncs de fer dos trams de fibra al nucli antic d'Olot que aniran des de l'Ateneu217 fins el Karme i de l'Ateneu217 fins l'ACAS. Pensem que és un projecte molt ambiciós i que després es podrà anar estenent per tot el […]" href="http://guifi.net/node/34361" class="rsswidget">Enfibra't a Olot!</a></li>
                                 </ul>
                             </div>
-                            <div id="content_3" class="content">
+                            <div id="content_4" class="content">
                                 <ul>
                                     <li><a title="Estem interessats en fer arribar guifi a la vall del ter-brugent (sant feliu de pallerols, les planes, amer, La Cellera, angles). Hi ha algu que ens pugui assesorar com fer-ho. Som gent dels pobles esmentats anteriorment. […]" href="http://guifi.net/node/34499" class="rsswidget">guifi zona ter-brugent</a></li>
                                     <li><a title="&nbsp;M'interesaria saber si hi ha algun Proxy dins la xarxa guifi que permeti fer ftp a l'exterior i si es aixi quim i com Gràcies […]" href="http://guifi.net/node/34497" class="rsswidget">proxys</a></li><li><a title="algu podria donar-me un cop d ull al node 34454 , el unsolclick me dona error &nbsp; moltes gracies. […]" href="http://guifi.net/node/34462" class="rsswidget">node 34454</a></li>
@@ -254,20 +267,25 @@
                         <li><a href="http://guifi.net/connectar_a_guifi" title="Notícies">Connectar a guifi.net</a></li>
                         <li><a href="http://planet.guifi.net" title="Notícies">Notícies</a></li>
                         <li><a href="http://guifi.net/CADocs" title="Documentació">Documentació</a></li>
+                        <li><a href="http://guifi.net/ca/BonesPractiques" title="Bones pràctiques">Codi de bones pràctiques</a></li>
+                        <li><a href="http://guifi.net/ComunsSensefils" title="Comun sense Fils">llicència Comun sense fils (CXOLN)</a></li>
                         <li><a href="http://guifi.net/premsa" title="Documentació">Premsa</a></li>
+                        <li><a href="http://guifi.net/tracker" title="Novetats a Guifi.net">Es nou a guifi.net</a></li>
+                        <li><a href="http://guifi.net/event/" title="Agenda">Agenda d'events</a></li>
                         <li><a href="#" title="Guifi TV">Guifi TV</a></li>
                     </ul>
                     <ul class="columna">
                         <li class="titolpeu">Eines de gestió</li>
                         <li><a href="http://guifi.net/maps" title="Mapes">Mapes</a></li>
                         <li><a href="#" title="Eines">Eines</a></li>
-                        <li><a href="http://guifi.net/node/25507" title="Grups locals">Grups locals</a></li>
+                        <li><a href="trac.guifi.net">Reportar errors a la web</a></li>
                     </ul>
                     <ul class="columna">
                         <li class="titolpeu">Suport</li>
                         <li><a href="http://guifi.net/forum" title="Fòrums">Fòrums</a></li>
                         <li><a href="http://guifi.net/llistes" title="Llistes de correu">Llistes de correu</a></li>
                         <li><a href="http://guifi.net/xat" title="Xat">Xat</a></li>
+                        <li><a href="http://guifi.net/node/25507" title="Grups locals">Grups locals</a></li>
                     </ul>
                     <ul class="columna">
                         <li class="titolpeu">Reconeixements</li>

@@ -382,7 +382,6 @@ ul.tabs li a:hover {
 }
 ul.tabs li a.active {
     background-color:#ffffff;
-    /*color:#282e32;*/
     color:#FF3300;
     border:1px solid #464c54;
     border-bottom: 1px solid #ffffff;
@@ -392,7 +391,7 @@ ul.tabs li a.active {
     padding:10px;
     border:1px solid #464c54;
 }
-#content_2, #content_3 { display:none; }
+#content_2, #content_3, #content_4 { display:none; }
 .content ul{
     list-style-image: url(../img/arrow2.gif);
 }
