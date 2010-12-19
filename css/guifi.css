@@ -111,13 +111,13 @@ a.vincle:hover {
     border:none;
 }
 
-#slogan {
+#banner h2 {
     float:left;
     padding-top:13px;
     padding-left:71px;
 }
 
-#slogan h2 {
+#slogan {
     font-size:20px;
     line-height:140%;
     font-style:italic;
