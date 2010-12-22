@@ -68,6 +68,13 @@
                         $("fieldset#signin_menu").hide();
                     }
                 });
+                $.get('home.xml', function(data){
+                  $('#total_actius').html($(data).find('total_working_nodes').attr('nodes'));
+                  $('#nombre_total_links').html($(data).find('total_links').attr('num'));
+                  $('#km_conexions').html($(data).find('total_links').attr('kms'));
+                  $('#nodes_creats_ultima_setmana').html($(data).find('nodes_last_week').attr('total_nodes'));
+                  $('#nodes_operatius_ultima_setmana').html($(data).find('nodes_last_week').attr('working_nodes'));
+                });
             });
             function MM_jumpIdioma(targ,selObj,restore){ //v3.0
                 eval(targ+".location='"+selObj.options[selObj.selectedIndex].value+"'");
@@ -191,11 +198,11 @@
                                 <li><a href="#" title="content_4" class="tab">Nou als forums</a></li>
                             </ul>
                             <div id="content_1" class="content">
-                                <h3><span class="gran">11.177</span> nodes operatius.</h3>
-                                <p>totals</p>
-                                <p>quilòmetres d'enllaços totals</p>
-                                <p>nodes creats última setmana</p>
-                                <p>nodes passats a operatius l'última setmana</p>
+                                <h3><span id='total_actius' class="gran">11.177</span> nodes operatius.</h3>
+                                <p><span id='nombre_total_links'></span> enllaços</p>
+                                <p><span id='km_conexions'></span> quilòmetres d'enllaços totals</p>
+                                <p><span id='nodes_creats_ultima_setmana'></span> nodes creats última setmana</p>
+                                <p><span id='nodes_operatius_ultima_setmana'></span> nodes passats a operatius l'última setmana</p>
                                 <p><a class="vincle" href="http://guifi.net/guifi/menu/stats/nodes">Més dades</a></p>
                             </div>
                             <div id="content_2" class="content">

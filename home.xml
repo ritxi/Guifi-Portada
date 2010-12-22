@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<cnml version="0.1" server_id="1" server_url="http://guifi.net" generated="20101222 0311">
+  <total_working_nodes nodes="11405"/>
+  <total_links num="12535" kms="17241.8"/>
+  <nodes_last_week total_nodes="64" working_nodes="19"/>
+  <control in_seconds="2.5587"/>
+</cnml>
