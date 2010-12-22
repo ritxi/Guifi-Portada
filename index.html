@@ -24,20 +24,6 @@
         <script type="text/javascript">
             // When the document loads do everything inside here ...
             $(document).ready(function(){
-                $('#banner-slider').multiSlide({
-                    images:'.images',
-                    navigators:'.left,.right'
-                });
-                $('#slider1').scrollShow({
-                    view:'.view',
-                    content:'.images',
-                    easing:'backout',
-                    wrappers:'link,crop',
-                    navigators:'a[id]',
-                    navigationMode:'sr',
-                    circular:true,
-                    start:0
-                });
                 // When a link is clicked
                 $("a.tab").click(function () {
                     // switch all tabs off
@@ -63,7 +49,7 @@
                     return false
                 });
                 $(document).mouseup(function(e) {
-                    if($(e.target).parent("a.signin").length==0) {
+                    if($(e.target).parent("a.signin").length==0){
                         $(".signin").removeClass("menu-open");
                         $("fieldset#signin_menu").hide();
                     }
@@ -75,7 +61,47 @@
                   $('#nodes_creats_ultima_setmana').html($(data).find('nodes_last_week').attr('total_nodes'));
                   $('#nodes_operatius_ultima_setmana').html($(data).find('nodes_last_week').attr('working_nodes'));
                 });
+                load_images([{
+                              'img' : 'dsc07219_910x454.jpg', 
+                              'titol' : 'La xarxa que fem entre tots', 
+                              'descripcio' : 'Descobreix per què Guifi és alguna cosa més que una xarxa de telecomunicacions',
+                              'primera' : true
+                              },
+                              {
+                              'img' : '20246_910x454.jpg', 
+                              'titol' : 'Guifi.net, un projecte per a tothom', 
+                              'descripcio' : 'Particulars, empreses, adiminstracions... han fet la vida més fàcil gràcies a Guifi',
+                              'primera' : false
+                              },
+                              {
+                              'img' : 'DSC08889_910x454.jpg', 
+                              'titol' : 'Tu també pots formar-ne part!', 
+                              'descripcio' : 'Hi ha moltes maneres de fer créixer el projecte, tinguis coneixements tècnics o no',
+                              'primera' : false
+                              }]);
             });
+            function load_images(elements) {
+              $.each(elements, function(i,element){
+                var is_first = (element.primera == true ? 'primera':'no-primera');
+                $("#banner-slider ul.images").append('<li><img class="'+is_first+'" src="img/slider-910x454/'+element.img+'" alt="'+element.titol+'" /></li>');
+                $('#slider0 ul.texts').append('<li> <h3>'+element.titol+'</h3> <p>'+element.descripcio+'</p> </li>')
+              });
+              $('#banner-slider').multiSlide({
+                  images:'.images',
+                  navigators:'.left,.right'
+              });
+              $('#slider1').scrollShow({
+                  view:'.view',
+                  content:'.images',
+                  easing:'backout',
+                  wrappers:'link,crop',
+                  navigators:'a[id]',
+                  navigationMode:'sr',
+                  circular:true,
+                  start:0
+              });
+
+            }
             function MM_jumpIdioma(targ,selObj,restore){ //v3.0
                 eval(targ+".location='"+selObj.options[selObj.selectedIndex].value+"'");
                 if (restore) selObj.selectedIndex=0;
@@ -140,26 +166,11 @@
                 </div>
                 <div class="slider" id="banner-slider">
                     <ul class="images">
-                        <li><img class="primera" src="img/slider-910x454/dsc07219_910x454.jpg" alt="" /></li>
-                        <li><img class="no-primera" src="img/slider-910x454/20246_910x454.jpg" alt="" /></li>
-                        <li><img class="no-primera" src="img/slider-910x454/DSC08889_910x454.jpg" alt="" /></li>
                     </ul>
                     <ul class="texts-slider" id="slider0">
                         <li><a class="left slider-arrow" id="left0" href="#"></a>
                         <li class="view">
                             <ul class="texts">
-                                <li>
-                                    <h3>La xarxa que fem entre tots</h3>
-                                    <p>Descobreix per què Guifi és alguna cosa més que una xarxa de telecomunicacions</p>
-                                </li>
-                                <li>
-                                    <h3>Guifi.net, un projecte per a tothom</h3>
-                                    <p>Particulars, empreses, adiminstracions... han fet la vida més fàcil gràcies a Guifi</p>
-                                </li>
-                                <li>
-                                    <h3>Tu també pots formar-ne part!</h3>
-                                    <p>Hi ha moltes maneres de fer créixer el projecte, tinguis coneixements tècnics o no</p>
-                                </li>
                             </ul>
                         </li>
                         <li><a class="right slider-arrow" id="right0" href="#"></a>
